@@ -17,12 +17,36 @@
         "precio":"Q 40.00",
         "precio_anterior":"Q 42.00",
         "descripcion":"El cable HDMI a DVI-D de Manhattan ofrece los colores más brillantes y precisos y los detalles más nítidos al conectar un televisor de alta definición, una pantalla LCD o de plasma, un receptor de satélite digital, un reproductor de DVD, un proyector digital u otros dispositivos de visualización equipados con DVI o HDMI.",
-        "detalles":"",
-        "imgFolder":"../../..//img/componentes/cables/",
+        "detalles":"HDMI macho a DVI-D macho; conexiones chapadas en oro.\nConecta un dispositivo de fuente de video HDMI a una pantalla con entrada DVI-D.\nBlindado para reducir EMI y otras fuentes de interferencia.\nAdmite los formatos de video existentes HD (720p, 1080i y 1080p a 60 Hz), mejorado (480p) y estándar (NTSC o PAL).\nCompatible con interfaces DVI-D.\nBota de PVC moldeado.",
+        "imgFolder":"../../../img/componentes/cables/",
         "imgURL":"322782_CABLE_HDMI_MACHO_A_DVI-D/",
         "img1":"img1.jpeg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "nombre": "342766 CABLE DE MOLEX A SATA",
+        "precio":"Q 21.00",
+        "precio_anterior":"Q 22.00",
+        "descripcion":"Los Cables de Alimentación SATA, Adaptadores y Splitters conectan con facilidad y extienden el alcance entre una fuente de alimentación y cualquier componente interno. Ideales para sistemas nuevos, reemplazos y actualizaciones. MANHATTAN ofrece una amplia variedad de soluciones de conectividad en varias configuraciones, todas ellas diseñadas con materiales de calidad para entregar y mantener la distribución de la energía de manera confiable. Presentando forros durables y construcciones robustas, Los Cables de Alimentación SATA MANHATTAN, Adaptadores y Splitters entregan un máximo de conductividad eléctrica para transmitir alimentación de manera segura cuando y donde se necesite.",
+        "detalles":"Estándares y Certificaciones\nRU\nCE\n\nContactos\n\n1 contacto de 15 pines para alimentación\n1 contacto de 4 pines Mólex\nConector SATA con baño de oro\nBotas moldeadas en PVC\nCable\nForro de plástico térmico\nCable 18 AWG\nVoltaje de ruptura: 300 V DC\nContenido del Paquete\nCable de Energía SATA",
+        "imgFolder":"../../../img/componentes/cables/",
+        "imgURL":"342766_CABLE_DE_MOLEX_A_SATA/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "nombre": "XTC-120 CABLE DE ALIMENTACION",
+        "precio":"Q 26.00",
+        "precio_anterior":"Q 30.00",
+        "descripcion":"Cable de alimentación para laptop con enchufe NEMA de 3 clavijas a conector hembra de 3 ranuras.",
+        "detalles":"Tipo: Cable de alimentación para computador portátil.\nTipo de conector: NEMA de 3 clavijas a conector hembra de 3 ranuras\nVoltaje: 110-250V.\nLongitud: 1,8m",
+        "imgFolder":"../../../img/componentes/cables/",
+        "imgURL":"XTC-120_CABLE_DE_ALIMENTACION/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
       }
     ]
   }
