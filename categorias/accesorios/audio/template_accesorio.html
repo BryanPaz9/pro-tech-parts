@@ -7,7 +7,7 @@
 		<link rel="icon" href="/img/ptp.ico">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Accesorios | Pro Tech Parts</title>
+		<title>Componentes | Pro Tech Parts</title>
 
  		<!-- Google font -->
  		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -28,6 +28,49 @@
  		<!-- Custom stlylesheet -->
  		<link type="text/css" rel="stylesheet" href="/css/style.css"/>
 
+		<script>
+			window.onload = function(){
+			//constante del producto
+			const urlproduct = '205153_CABLE_MANHATTAN/';
+			//nombre de producto
+			const product_name = '205153 CABLE MANHATTAN'
+			document.getElementById('producto').innerHTML = product_name;
+			//precio
+			const precio = 'Q 46.50';
+			const precio_anterior = 'Q 58.75';
+			document.getElementById('precio').innerHTML = precio;
+			document.getElementById('precio_anterior').innerHTML = precio_anterior;
+			//descripcion
+			const descripcion = 'Conecte caulquier dispositivo serial a un puerto USB con este Convertidor Serial a USB, el cual soporta tasas de transmisión en baudios de 1,200 a 115,200.';
+			document.getElementById('descripcion').innerHTML = descripcion;
+			document.getElementById('descripcion2').innerHTML = descripcion;
+			//url de la carpeta contenedora de las imagenes
+			let imgfolder = '/img/componentes/cables/'+urlproduct;
+			//nombre de foto 1
+			let img1 = 'img1.jpeg';
+			let urlimg1 = imgfolder+img1;
+			//dando src a imagen 1
+			document.getElementById('img1a').src = urlimg1;
+			document.getElementById('img1b').src = urlimg1;
+			//imagen 2
+			let img2 = 'img2.jpeg';
+			//url de fotos 2 y 4
+			let urlimg2 = imgfolder+img2;
+			//dando src a imagen 2
+			document.getElementById('img2a').src = urlimg2;
+			document.getElementById('img2b').src = urlimg2;
+			//dando src a imagen 4
+			document.getElementById('img4a').src = urlimg2;
+			document.getElementById('img4b').src = urlimg2;
+			//nombre foto 3
+			let img3 = 'img3.jpeg';
+			//url de foto 3
+			let urlimg3 = imgfolder+img3;
+			//imagen 3
+			document.getElementById('img3a').src = urlimg1;
+			document.getElementById('img3b').src = urlimg1;
+			}
+		</script>
     </head>
 	<body>
 		<!-- HEADER -->
@@ -189,8 +232,8 @@
 							<li><a href="#">INICIO</a></li>
 							<li><a href="#">CATEGORIAS</a></li>
 							<li><a href="#">ACCESORIOS</a></li>
-							<li><a href="#">{}{NOMBRE TIPO DE PRODUCTO}</a></li>
-							<li class="active">{}{Nombre del producto}</li>
+							<li><a href="#">AUDIO</a></li>
+							<li class="active" id="producto"></li>
 						</ul>
 					</div>
 				</div>
@@ -210,23 +253,16 @@
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 1}</label>
-								<img src="/img/product01.png" alt="">
+								<img id="img1a" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 2}</label>
-								<img src="/img/product03.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img2a" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 3}</label>
-								<img src="/img/product06.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img3.jpeg" id="img3a" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 4}</label>
-								<img src="/img/product08.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img4a" alt="">
 							</div>
 						</div>
 					</div>
@@ -236,22 +272,16 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 1}</label>
-								<img src="/img/product01.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img1.jpeg" id="img1b" alt="">
 							</div>
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 2}</label>
-								<img src="/img/product03.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img2b" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 3}</label>
-								<img src="/img/product06.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img3.jpeg" id="img3b" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 4}</label>
-								<img src="/img/product08.png" alt="">
+								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img4b" alt="">
 							</div>
 						</div>
 					</div>
@@ -260,27 +290,27 @@
 					<!-- Product details -->
 					<div class="col-md-5">
 						<div class="product-details">
-							<h2 class="product-name">{}{Nombre del producto}</h2>
+							<h2 class="product-name">205153 CABLE MANHATTAN</h2>
 							<div>
 							</div>
 							<div>
-								<h3 class="product-price">{}{precio} <del class="product-old-price">{}{precio anterior}</del></h3>
+								<h3 class="product-price" id="precio"></h3>
+								<del class="product-old-price" id="precio_anterior"></del>
 								<span class="product-available">En existencia</span>
 							</div>
-							<p>{}{Descripción}</p>
+							<p id="descripcion"></p>
 
 							<div class="product-options">
 								<label>
 									Tamaño
 									<select class="input-select">
-										<option value="0">{}{Tamaño}</option>
+										<option value="0">Único</option>
 									</select>
 								</label>
 								<label>
 									Color
 									<select class="input-select">
-										<option value="0">{}{Color1}</option>
-										<option value="1">{}{Color2}</option>
+										<option value="0">Negro</option>
 									</select>
 								</label>
 							</div>
@@ -304,7 +334,7 @@
 
 							<ul class="product-links">
 								<li>Categoría:</li>
-								<li><a href="#">Componentes</a></li>
+								<li><a href="#">AUDIO</a></li>
 							</ul>
 
 						</div>
@@ -327,7 +357,7 @@
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>{}{Descripción}</p>
+											<p id="descripcion2"></p>
 										</div>
 									</div>
 								</div>
@@ -338,20 +368,22 @@
 									<div class="row">
 										<div class="col-md-12">
                                             <p>{}{Detalles, una linea por cada detalle}</p>
-											<p>Estándares y Certificaciones</p>
-											<p>RU</p>
+											<p>Estándares y certificaciones</p>
 											<p>CE</p>
-											<p>Contactos</p>
-											<p>1 contacto de 15 pines para alimentaciónv
-											<p>1 contacto de 4 pines Mólex</p>
-											<p>Conector SATA con baño de oro</p>
-											<p>Botas moldeadas en PVC</p>
-											<p>Cable</p>
-											<p>Forro de plástico térmico</p>
-											<p>Cable 18 AWG</p>
-											<p>Voltaje de ruptura: 300 V DC</p>
-											<p>Contenido del Paquete</p>
-											<p>Cable de Energía SATA</p>
+											<p>FCC</p>
+											<p>USB 1.0</p>
+											<p>RoHS</p>
+											<p>WEEE</p>
+											<p>Conexiones</p>
+											<p>1 puerto USB; tipo A macho</p>
+											<p>Tasa de transferencia: hasta 115 kbps</p>
+											<p>Alimentado por bus</p>
+											<p>Protección de sobrecorriente</p>
+											<p>Chipset Prolific PL2303RA</p>
+											<p>Longitud del cable: 45 cm</p>
+											<p>Peso: 165 g</p>
+											<p>Requerimientos del sistema</p>
+											<p>1 Puerto USB 1.1 ó 2.0</p>
 										</div>
 									</div>
 								</div>
