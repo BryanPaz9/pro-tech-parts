@@ -1,6 +1,7 @@
 {
     "componentes": [
       {
+        "subcategoria": "cables",
         "nombre": "205153 CABLE MANHATTAN",
         "precio":"Q 46.50",
         "precio_anterior":"Q 52.75",
@@ -13,6 +14,7 @@
         "img3":"img3.jpeg"
       },
       {
+        "subcategoria": "cables",
         "nombre": "322782 CABLE HDMI MACHO A DVI-D",
         "precio":"Q 40.00",
         "precio_anterior":"Q 42.00",
@@ -25,6 +27,7 @@
         "img3":"img3.jpeg"
       },
       {
+        "subcategoria": "cables",
         "nombre": "342766 CABLE DE MOLEX A SATA",
         "precio":"Q 21.00",
         "precio_anterior":"Q 22.00",
@@ -37,6 +40,7 @@
         "img3":"img3.jpeg"
       },
       {
+        "subcategoria": "cables",
         "nombre": "XTC-120 CABLE DE ALIMENTACION",
         "precio":"Q 26.00",
         "precio_anterior":"Q 30.00",
