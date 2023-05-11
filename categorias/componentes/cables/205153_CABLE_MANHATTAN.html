@@ -30,6 +30,14 @@
 
 		<script>
 			window.onload = function(){
+			let ls = localStorage.getItem('carrito');
+			let qtycar;
+			if(ls == null){
+				localStorage.setItem('carrito','0');
+				document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+			}else{
+				document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+			}
 			//constante del producto
 			const urlproduct = '205153_CABLE_MANHATTAN/';
 			//nombre de producto
@@ -142,7 +150,7 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Tu Carrito</span>
-										<div class="qty">3</div>
+										<div class="qty" id="qtycar"></div>
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
