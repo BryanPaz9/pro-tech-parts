@@ -4,73 +4,97 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="/img/ptp.ico">
+		<link rel="icon" href="../../../img/ptp.ico">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Componentes | Pro Tech Parts</title>
+		<title>Accesorios | Pro Tech Parts</title>
 
  		<!-- Google font -->
  		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
  		<!-- Bootstrap -->
- 		<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/bootstrap.min.css"/>
 
  		<!-- Slick -->
- 		<link type="text/css" rel="stylesheet" href="/css/slick.css"/>
- 		<link type="text/css" rel="stylesheet" href="/css/slick-theme.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/slick-theme.css"/>
 
  		<!-- nouislider -->
- 		<link type="text/css" rel="stylesheet" href="/css/nouislider.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/nouislider.min.css"/>
 
  		<!-- Font Awesome Icon -->
- 		<link rel="stylesheet" href="/css/font-awesome.min.css">
+ 		<link rel="stylesheet" href="../../../css/font-awesome.min.css">
 
  		<!-- Custom stlylesheet -->
- 		<link type="text/css" rel="stylesheet" href="/css/style.css"/>
-
-		<script>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/style.css"/>
+		 <script>
 			window.onload = function(){
-			//constante del producto
-			const urlproduct = '205153_CABLE_MANHATTAN/';
-			//nombre de producto
-			const product_name = '205153 CABLE MANHATTAN'
-			document.getElementById('producto').innerHTML = product_name;
-			//precio
-			const precio = 'Q 46.50';
-			const precio_anterior = 'Q 58.75';
-			document.getElementById('precio').innerHTML = precio;
-			document.getElementById('precio_anterior').innerHTML = precio_anterior;
-			//descripcion
-			const descripcion = 'Conecte caulquier dispositivo serial a un puerto USB con este Convertidor Serial a USB, el cual soporta tasas de transmisión en baudios de 1,200 a 115,200.';
-			document.getElementById('descripcion').innerHTML = descripcion;
-			document.getElementById('descripcion2').innerHTML = descripcion;
-			//url de la carpeta contenedora de las imagenes
-			let imgfolder = '/img/componentes/cables/'+urlproduct;
-			//nombre de foto 1
-			let img1 = 'img1.jpeg';
-			let urlimg1 = imgfolder+img1;
-			//dando src a imagen 1
-			document.getElementById('img1a').src = urlimg1;
-			document.getElementById('img1b').src = urlimg1;
-			//imagen 2
-			let img2 = 'img2.jpeg';
-			//url de fotos 2 y 4
-			let urlimg2 = imgfolder+img2;
-			//dando src a imagen 2
-			document.getElementById('img2a').src = urlimg2;
-			document.getElementById('img2b').src = urlimg2;
-			//dando src a imagen 4
-			document.getElementById('img4a').src = urlimg2;
-			document.getElementById('img4b').src = urlimg2;
-			//nombre foto 3
-			let img3 = 'img3.jpeg';
-			//url de foto 3
-			let urlimg3 = imgfolder+img3;
-			//imagen 3
-			document.getElementById('img3a').src = urlimg1;
-			document.getElementById('img3b').src = urlimg1;
+				setTimeout(carga_contenido,400)
+			}
+			
+			function carga_contenido(){
+			    let accesorios = [{}];
+				let producto;
+				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
+				const urlproduct = '205153_CABLE_MANHATTAN/';
+				//Obtener info del producto en el json.
+				fetch('../../accesorios/accesorios.json')
+				.then(response=>response.json())
+				.then(data=>{
+					accesorios = data.accesorios;
+					producto = accesorios.find(accesorio => accesorio.imgURL == urlproduct);
+					console.log(data);
+					console.log(producto);
+					//nombre de producto
+					document.getElementById('producto').innerHTML = producto.nombre;
+					//precios
+					document.getElementById('precio').innerHTML = producto.precio;
+					document.getElementById('precio_anterior').innerHTML = producto.precio_anterior;
+					//descripcion
+					document.getElementById('descripcion').innerHTML = producto.descripcion;
+					document.getElementById('descripcion2').innerHTML = producto.descripcion;
+					//detalle
+					// document.getElementById('detalle').innerHTML = producto.detalles;
+					document.getElementById('detalle').innerHTML = producto.detalles.replace(/\n/g,'<br><br>');
+					//url de la carpeta contenedora de las imagenes
+					let imgFolder = producto.imgFolder+producto.imgURL;
+					
+					//url de imagen 1
+					let urlimg1 = imgFolder+producto.img1;
+					console.log(urlimg1)
+					//dando src a imagen 1
+					document.getElementById('img1a').src = urlimg1;
+					document.getElementById('img1b').src = urlimg1;
+					//url de fotos 2 y 4
+					let urlimg2 = imgFolder+producto.img2;
+					console.log(urlimg2)
+					//dando src a imagen 2
+					document.getElementById('img2a').src = urlimg2;
+					document.getElementById('img2b').src = urlimg2;
+					//url de foto 3
+					let urlimg3 = imgFolder+producto.img3;
+					console.log(urlimg3)
+					//imagen 3
+					document.getElementById('img3a').src = urlimg3;
+					document.getElementById('img3b').src = urlimg3;
+
+				})
+				.catch(error =>{
+					console.error('Error al leer el JSON: ',error);
+				})
+				//CARRITO
+				let ls = localStorage.getItem('carrito');
+				let qtycar;
+				if(ls == null){
+					localStorage.setItem('carrito','0');
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}else{
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}
 			}
 		</script>
+
+		<!-- <script src="../../../js/products.js"></script> -->
     </head>
 	<body>
 		<!-- HEADER -->
@@ -100,8 +124,8 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="/index.html" class="logo">
-									<img src="/img/logo.png" alt="">
+								<a href="../../../index.html" class="logo">
+									<img src="../../../img/logo.png" alt="">
 								</a>
 							</div>
 						</div>
@@ -142,13 +166,13 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Tu Carrito</span>
-										<div class="qty">3</div>
+										<div class="qty" id="qtycar"></div>
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="/img/product01.png" alt="">
+													<img src="../../../img/product01.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Laptop</a></h3>
@@ -159,7 +183,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="/img/product02.png" alt="">
+													<img src="../../../img/product02.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">MANHATAN 342766 CABLE DE MOLEX A SATA DE PODER 15P-4P</a></h3>
@@ -208,10 +232,10 @@
 				<div id="responsive-nav">
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
-						<li><a href="/index.html">Inicio</a></li>
-						<li><a href="/componentes.html">Componentes</a></li>
-						<li><a href="/gaming.html">Gaming</a></li>
-						<li class="active"><a href="/accesorios.html">Accesorios</a></li>
+						<li><a href="../../../index.html">Inicio</a></li>
+						<li><a href="../../../componentes.html">Componentes</a></li>
+						<li><a href="../../../gaming.html">Gaming</a></li>
+						<li class="active"><a href="../../../accesorios.html">Accesorios</a></li>
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -232,7 +256,7 @@
 							<li><a href="#">INICIO</a></li>
 							<li><a href="#">CATEGORIAS</a></li>
 							<li><a href="#">ACCESORIOS</a></li>
-							<li><a href="#">AUDIO</a></li>
+							<li><a href="#">CABLES</a></li>
 							<li class="active" id="producto"></li>
 						</ul>
 					</div>
@@ -253,13 +277,13 @@
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img1.jpeg" id="img1a" alt="">
+								<img src="" id="img1a" alt="">
 							</div>
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img2a" alt="">
+								<img src="" id="img2a" alt="">
 							</div>
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img3.jpeg" id="img3a" alt="">
+								<img src="" id="img3a" alt="">
 							</div>
 						</div>
 					</div>
@@ -269,13 +293,13 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img1.jpeg" id="img1b" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img1b" alt="">
 							</div>
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img2.jpeg" id="img2b" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img2b" alt="">
 							</div>
 							<div class="product-preview">
-								<img src="/img/componentes/cables/205153_CABLE_MANHATTAN/img3.jpeg" id="img3b" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img3b" alt="">
 							</div>
 						</div>
 					</div>
@@ -328,7 +352,7 @@
 
 							<ul class="product-links">
 								<li>Categoría:</li>
-								<li><a href="#">AUDIO</a></li>
+								<li><a href="#">Accesorios</a></li>
 							</ul>
 
 						</div>
@@ -361,23 +385,7 @@
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-                                            <p>{}{Detalles, una linea por cada detalle}</p>
-											<p>Estándares y certificaciones</p>
-											<p>CE</p>
-											<p>FCC</p>
-											<p>USB 1.0</p>
-											<p>RoHS</p>
-											<p>WEEE</p>
-											<p>Conexiones</p>
-											<p>1 puerto USB; tipo A macho</p>
-											<p>Tasa de transferencia: hasta 115 kbps</p>
-											<p>Alimentado por bus</p>
-											<p>Protección de sobrecorriente</p>
-											<p>Chipset Prolific PL2303RA</p>
-											<p>Longitud del cable: 45 cm</p>
-											<p>Peso: 165 g</p>
-											<p>Requerimientos del sistema</p>
-											<p>1 Puerto USB 1.1 ó 2.0</p>
+                                            <p id ="detalle"></p>
 										</div>
 									</div>
 								</div>
@@ -411,7 +419,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product01.png" alt="">
+								<img src="../../../img/product01.png" alt="">
 								<div class="product-label">
 									<span class="sale">-30%</span>
 								</div>
@@ -437,7 +445,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product02.png" alt="">
+								<img src="../../../img/product02.png" alt="">
 								<div class="product-label">
 									<span class="new">NUEVO</span>
 								</div>
@@ -465,7 +473,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product03.png" alt="">
+								<img src="../../../img/product03.png" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">Categoría</p>
@@ -489,7 +497,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product04.png" alt="">
+								<img src="../../../img/product04.png" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">Categoría</p>
@@ -561,9 +569,9 @@
 							<div class="footer">
 								<h3 class="footer-title">Categorías</h3>
 								<ul class="footer-links">
-									<li><a href="/componentes.html">Componentes</a></li>
-									<li><a href="/gaming.html">Gaming</a></li>
-									<li><a href="/accesorios.html">Accesorios</a></li>
+									<li><a href="../../../componentes.html">Componentes</a></li>
+									<li><a href="../../../gaming.html">Gaming</a></li>
+									<li><a href="../../../accesorios.html">Accesorios</a></li>
 								</ul>
 							</div>
 						</div>
@@ -629,12 +637,12 @@
 		<!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/slick.min.js"></script>
-		<script src="/js/nouislider.min.js"></script>
-		<script src="/js/jquery.zoom.min.js"></script>
-		<script src="/js/main.js"></script>
+		<script src="../../../js/jquery.min.js"></script>
+		<script src="../../../js/bootstrap.min.js"></script>
+		<script src="../../../js/slick.min.js"></script>
+		<script src="../../../js/nouislider.min.js"></script>
+		<script src="../../../js/jquery.zoom.min.js"></script>
+		<script src="../../../js/main.js"></script>
 
 	</body>
 </html>
