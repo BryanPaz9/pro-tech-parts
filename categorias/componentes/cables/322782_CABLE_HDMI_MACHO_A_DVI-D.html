@@ -7,7 +7,7 @@
 		<link rel="icon" href="../../../img/ptp.ico">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Accesorios | Pro Tech Parts</title>
+		<title>Componentes | Pro Tech Parts</title>
 
  		<!-- Google font -->
  		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -31,18 +31,17 @@
 			window.onload = function(){
 				setTimeout(carga_contenido,400)
 			}
-			
 			function carga_contenido(){
-			    let accesorios = [{}];
+			    let componentes = [{}];
 				let producto;
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
-				const urlproduct = '205153_CABLE_MANHATTAN/';
+				const urlproduct = '322782_CABLE_HDMI_MACHO_A_DVI-D/';
 				//Obtener info del producto en el json.
-				fetch('../../accesorios/accesorios.json')
+				fetch('../../componentes/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
-					accesorios = data.accesorios;
-					producto = accesorios.find(accesorio => accesorio.imgURL == urlproduct);
+					componentes = data.componentes;
+					producto = componentes.find(componente => componente.imgURL == urlproduct);
 					console.log(data);
 					console.log(producto);
 					//nombre de producto
@@ -235,9 +234,9 @@
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
 						<li><a href="../../../index.html">Inicio</a></li>
-						<li><a href="../../../componentes.html">Componentes</a></li>
+						<li class="active"><a href="../../../componentes.html">Componentes</a></li>
 						<li><a href="../../../gaming.html">Gaming</a></li>
-						<li class="active"><a href="../../../accesorios.html">Accesorios</a></li>
+						<li><a href="../../../accesorios.html">Accesorios</a></li>
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -257,7 +256,7 @@
 						<ul class="breadcrumb-tree">
 							<li><a href="#">INICIO</a></li>
 							<li><a href="#">CATEGORIAS</a></li>
-							<li><a href="#">ACCESORIOS</a></li>
+							<li><a href="#">COMPONENTES</a></li>
 							<li><a href="#">CABLES</a></li>
 							<li class="active" id="producto"></li>
 						</ul>
@@ -354,7 +353,7 @@
 
 							<ul class="product-links">
 								<li>Categoría:</li>
-								<li><a href="#">Accesorios</a></li>
+								<li><a href="#">Componentes</a></li>
 							</ul>
 
 						</div>

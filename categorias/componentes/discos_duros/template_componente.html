@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="/img/ptp.ico">
+		<link rel="icon" href="../../../img/ptp.ico">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<title>Componentes | Pro Tech Parts</title>
@@ -13,21 +13,90 @@
  		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
  		<!-- Bootstrap -->
- 		<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/bootstrap.min.css"/>
 
  		<!-- Slick -->
- 		<link type="text/css" rel="stylesheet" href="/css/slick.css"/>
- 		<link type="text/css" rel="stylesheet" href="/css/slick-theme.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/slick-theme.css"/>
 
  		<!-- nouislider -->
- 		<link type="text/css" rel="stylesheet" href="/css/nouislider.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/nouislider.min.css"/>
 
  		<!-- Font Awesome Icon -->
- 		<link rel="stylesheet" href="/css/font-awesome.min.css">
+ 		<link rel="stylesheet" href="../../../css/font-awesome.min.css">
 
  		<!-- Custom stlylesheet -->
- 		<link type="text/css" rel="stylesheet" href="/css/style.css"/>
+ 		<link type="text/css" rel="stylesheet" href="../../../css/style.css"/>
+		 <script>
+			window.onload = function(){
+				setTimeout(carga_contenido,400)
+			}
+			
+			function carga_contenido(){
+			    let componentes = [{}];
+				let producto;
+				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
+				const urlproduct = '205153_CABLE_MANHATTAN/';
+				//Obtener info del producto en el json.
+				fetch('../../componentes/componentes.json')
+				.then(response=>response.json())
+				.then(data=>{
+					componentes = data.componentes;
+					producto = componentes.find(componente => componente.imgURL == urlproduct);
+					console.log(data);
+					console.log(producto);
+					//nombre de producto
+					document.getElementById('producto').innerHTML = producto.nombre;
 
+                    document.getElementById('nombre_producto').innerHTML = producto.nombre;
+					//precios
+					document.getElementById('precio').innerHTML = producto.precio;
+					document.getElementById('precio_anterior').innerHTML = producto.precio_anterior;
+					//descripcion
+					document.getElementById('descripcion').innerHTML = producto.descripcion;
+					document.getElementById('descripcion2').innerHTML = producto.descripcion;
+					//detalle
+					// document.getElementById('detalle').innerHTML = producto.detalles;
+					document.getElementById('detalle').innerHTML = producto.detalles.replace(/\n/g,'<br><br>');
+					//url de la carpeta contenedora de las imagenes
+					let imgFolder = producto.imgFolder+producto.imgURL;
+					
+					//url de imagen 1
+					let urlimg1 = imgFolder+producto.img1;
+					console.log(urlimg1)
+					//dando src a imagen 1
+					document.getElementById('img1a').src = urlimg1;
+					document.getElementById('img1b').src = urlimg1;
+					//url de fotos 2 y 4
+					let urlimg2 = imgFolder+producto.img2;
+					console.log(urlimg2)
+					//dando src a imagen 2
+					document.getElementById('img2a').src = urlimg2;
+					document.getElementById('img2b').src = urlimg2;
+					//url de foto 3
+					let urlimg3 = imgFolder+producto.img3;
+					console.log(urlimg3)
+					//imagen 3
+					document.getElementById('img3a').src = urlimg3;
+					document.getElementById('img3b').src = urlimg3;
+
+				})
+				.catch(error =>{
+					console.error('Error al leer el JSON: ',error);
+				})
+				//CARRITO
+				let ls = localStorage.getItem('carrito');
+				let qtycar;
+				if(ls == null){
+					localStorage.setItem('carrito','0');
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}else{
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}
+			}
+		</script>
+
+		<!-- <script src="../../../js/products.js"></script> -->
     </head>
 	<body>
 		<!-- HEADER -->
@@ -57,8 +126,8 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="/index.html" class="logo">
-									<img src="/img/logo.png" alt="">
+								<a href="../../../index.html" class="logo">
+									<img src="../../../img/logo.png" alt="">
 								</a>
 							</div>
 						</div>
@@ -99,13 +168,13 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Tu Carrito</span>
-										<div class="qty">3</div>
+										<div class="qty" id="qtycar"></div>
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="/img/product01.png" alt="">
+													<img src="../../../img/product01.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">Laptop</a></h3>
@@ -116,7 +185,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="/img/product02.png" alt="">
+													<img src="../../../img/product02.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">MANHATAN 342766 CABLE DE MOLEX A SATA DE PODER 15P-4P</a></h3>
@@ -165,10 +234,10 @@
 				<div id="responsive-nav">
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
-						<li><a href="/index.html">Inicio</a></li>
-						<li class="active"><a href="/componentes.html">Componentes</a></li>
-						<li><a href="/gaming.html">Gaming</a></li>
-						<li><a href="/accesorios.html">Accesorios</a></li>
+						<li><a href="../../../index.html">Inicio</a></li>
+						<li class="active"><a href="../../../componentes.html">Componentes</a></li>
+						<li><a href="../../../gaming.html">Gaming</a></li>
+						<li><a href="../../../accesorios.html">Accesorios</a></li>
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -189,8 +258,8 @@
 							<li><a href="#">INICIO</a></li>
 							<li><a href="#">CATEGORIAS</a></li>
 							<li><a href="#">COMPONENTES</a></li>
-							<li><a href="#">{}{NOMBRE TIPO DE PRODUCTO}</a></li>
-							<li class="active">{}{Nombre del producto}</li>
+							<li><a href="#">CABLES</a></li>
+							<li class="active" id="producto"></li>
 						</ul>
 					</div>
 				</div>
@@ -210,23 +279,13 @@
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 1}</label>
-								<img src="/img/product01.png" alt="">
+								<img src="" id="img1a" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 2}</label>
-								<img src="/img/product03.png" alt="">
+								<img src="" id="img2a" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 3}</label>
-								<img src="/img/product06.png" alt="">
-							</div>
-
-							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 4}</label>
-								<img src="/img/product08.png" alt="">
+								<img src="" id="img3a" alt="">
 							</div>
 						</div>
 					</div>
@@ -236,22 +295,13 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 1}</label>
-								<img src="/img/product01.png" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img1b" alt="">
 							</div>
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 2}</label>
-								<img src="/img/product03.png" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img2b" alt="">
 							</div>
-
 							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 3}</label>
-								<img src="/img/product06.png" alt="">
-							</div>
-
-							<div class="product-preview">
-								<label for="">{}{Cambiar imagen 4}</label>
-								<img src="/img/product08.png" alt="">
+								<img src="../../../img/skeleton/img.jpg" id="img3b" alt="">
 							</div>
 						</div>
 					</div>
@@ -260,27 +310,27 @@
 					<!-- Product details -->
 					<div class="col-md-5">
 						<div class="product-details">
-							<h2 class="product-name">{}{Nombre del producto}</h2>
+							<h2 class="product-name" id="nombre_producto"></h2>
 							<div>
 							</div>
 							<div>
-								<h3 class="product-price">{}{precio} <del class="product-old-price">{}{precio anterior}</del></h3>
+								<h3 class="product-price" id="precio"></h3>
+								<del class="product-old-price" id="precio_anterior"></del>
 								<span class="product-available">En existencia</span>
 							</div>
-							<p>{}{Descripción}</p>
+							<p id="descripcion"></p>
 
 							<div class="product-options">
 								<label>
 									Tamaño
 									<select class="input-select">
-										<option value="0">{}{Tamaño}</option>
+										<option value="0">Único</option>
 									</select>
 								</label>
 								<label>
 									Color
 									<select class="input-select">
-										<option value="0">{}{Color1}</option>
-										<option value="1">{}{Color2}</option>
+										<option value="0">Negro</option>
 									</select>
 								</label>
 							</div>
@@ -327,7 +377,7 @@
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>{}{Descripción}</p>
+											<p id="descripcion2"></p>
 										</div>
 									</div>
 								</div>
@@ -337,21 +387,7 @@
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-                                            <p>{}{Detalles, una linea por cada detalle}</p>
-											<p>Estándares y Certificaciones</p>
-											<p>RU</p>
-											<p>CE</p>
-											<p>Contactos</p>
-											<p>1 contacto de 15 pines para alimentaciónv
-											<p>1 contacto de 4 pines Mólex</p>
-											<p>Conector SATA con baño de oro</p>
-											<p>Botas moldeadas en PVC</p>
-											<p>Cable</p>
-											<p>Forro de plástico térmico</p>
-											<p>Cable 18 AWG</p>
-											<p>Voltaje de ruptura: 300 V DC</p>
-											<p>Contenido del Paquete</p>
-											<p>Cable de Energía SATA</p>
+                                            <p id ="detalle"></p>
 										</div>
 									</div>
 								</div>
@@ -385,7 +421,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product01.png" alt="">
+								<img src="../../../img/product01.png" alt="">
 								<div class="product-label">
 									<span class="sale">-30%</span>
 								</div>
@@ -411,7 +447,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product02.png" alt="">
+								<img src="../../../img/product02.png" alt="">
 								<div class="product-label">
 									<span class="new">NUEVO</span>
 								</div>
@@ -439,7 +475,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product03.png" alt="">
+								<img src="../../../img/product03.png" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">Categoría</p>
@@ -463,7 +499,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/img/product04.png" alt="">
+								<img src="../../../img/product04.png" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">Categoría</p>
@@ -535,9 +571,9 @@
 							<div class="footer">
 								<h3 class="footer-title">Categorías</h3>
 								<ul class="footer-links">
-									<li><a href="/componentes.html">Componentes</a></li>
-									<li><a href="/gaming.html">Gaming</a></li>
-									<li><a href="/accesorios.html">Accesorios</a></li>
+									<li><a href="../../../componentes.html">Componentes</a></li>
+									<li><a href="../../../gaming.html">Gaming</a></li>
+									<li><a href="../../../accesorios.html">Accesorios</a></li>
 								</ul>
 							</div>
 						</div>
@@ -603,12 +639,12 @@
 		<!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/slick.min.js"></script>
-		<script src="/js/nouislider.min.js"></script>
-		<script src="/js/jquery.zoom.min.js"></script>
-		<script src="/js/main.js"></script>
+		<script src="../../../js/jquery.min.js"></script>
+		<script src="../../../js/bootstrap.min.js"></script>
+		<script src="../../../js/slick.min.js"></script>
+		<script src="../../../js/nouislider.min.js"></script>
+		<script src="../../../js/jquery.zoom.min.js"></script>
+		<script src="../../../js/main.js"></script>
 
 	</body>
 </html>
