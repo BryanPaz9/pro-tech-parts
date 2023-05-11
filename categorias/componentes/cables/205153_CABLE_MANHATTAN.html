@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="/img/ptp.ico">
+		<link rel="icon" href="../../../img/ptp.ico">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<title>Componentes | Pro Tech Parts</title>
@@ -38,7 +38,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = '205153_CABLE_MANHATTAN/';
 				//Obtener info del producto en el json.
-				fetch('/categorias/componentes/componentes.json')
+				fetch('../../componentes/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;
