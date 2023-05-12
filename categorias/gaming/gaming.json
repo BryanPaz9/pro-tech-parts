@@ -14,27 +14,27 @@
         "img3":"img3.jpg"
       },{
         "subcategoria": "audio",
-        "nombre": "",
-        "precio":"",
-        "precio_anterior":"",
-        "descripcion":"",
-        "detalles":"",
+        "nombre": "AUDIFONO HYPERX CLOUD STINGER",
+        "precio":"Q 315.00",
+        "precio_anterior":"Q 338.00",
+        "descripcion":"Los auriculares HyperX CloudX Stinger™ cuentan con la licencia oficial de Xbox y son ideales para jugadores de Xbox que buscan comodidad, una calidad de sonido superior y practicidad.\nSon ligeros e incluyen la exclusiva espuma viscoelástica HyperX para ofrecer una comodidad legendaria durante largas sesiones de juegos.\nSus cascos giran 90º, por lo que podrás apoyarlos cómodamente sobre el cuello durante los descansos.\nLos controladores direccionales de 50 mm brindan un sonido de alta calidad con una gran precisión de audio que te sumergirá totalmente en el juego.\nPara mayor comodidad, los auriculares cuentan con un control deslizante de volumen en el casco derecho y un micrófono con cancelación de sonido, que se silencia con un simple giro.",
+        "detalles":"de entrada: estimada 30 mW; máx. 500 mW\nPeso: 275 g\nLongitud del cable: 1,3 m\nConexión\nAuriculares: conexión de 3,5 mm (4 polos)\nMicrófono\nElemento: Micrófono de condensador electret\nPatrón polar: Unidireccional, cancelación de ruido\nRespuesta de frecuencia: Entre 50 Hz y 18 000 Hz\nSensibilidad: -40 dBV (0 dB=1 V/Pa, 1 kHz)",
         "imgFolder":"../../../img/gaming/audio/",
-        "imgURL":"/",
+        "imgURL":"AUDIFONO_HYPERX_CLOUD_STINGER/",
         "img1":"img1.jpeg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
       },{
         "subcategoria": "audio",
-        "nombre": "",
-        "precio":"",
-        "precio_anterior":"",
-        "descripcion":"",
-        "detalles":"",
+        "nombre": "BOCINA CHECKPOINT SX100 RGB",
+        "precio":"Q 125.00",
+        "precio_anterior":"130.00",
+        "descripcion":"Checkpoint entiende que el equipo con que juegas debe ser emocionante como los juegos, por ello te presenta las bocinas SX100 RGB compatibles con PC, laptops y celulares, gracias a su conexión 3.5 mm y USB, disfruta de una experiencia de sonido en tus juegos favoritos.",
+        "detalles":"Especificaciones\n-Entrada: 5 V 1A\n-Consumo de energía estándar: 0.5 W\n-Potencia de salida: 2* 2.3 W RMS\n-Tamaño del altavoz: 2.5 pulgadas \n-Impedancia del altavoz: 4 Ω\n-Impedancia de entrada: 10 K Ω\n-Frecuencia: 20 Hz - 20 kHz\n-Separación: 50 dB\n-Sensibilidad de entrada: 630 mw ± 50\n-Relación de señal / ruido: 50 dB\n-Dimensiones: 78 x 105 x 175 mm\n-Peso: 0.75 g",
         "imgFolder":"../../../img/gaming/audio/",
-        "imgURL":"/",
+        "imgURL":"BOCINA_CHECKPOINT_SX100_RGB/",
         "img1":"img1.jpeg",
-        "img2":"img2.jpeg",
+        "img2":"img2.jpg",
         "img3":"img3.jpeg"
       }
     ]
