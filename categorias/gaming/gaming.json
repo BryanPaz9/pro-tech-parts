@@ -1,0 +1,42 @@
+{
+    "gaming": [
+      {
+        "subcategoria": "audio",
+        "nombre": "AUDIFONO PRIMUS PARA GAMERS ARCUS 200S-BT",
+        "precio":"Q 320.00",
+        "precio_anterior":"Q 333.00",
+        "descripcion":"Sonido envolvente de 360º – acústicamente equilibrado, garantiza máxima claridad y nitidez desde todos los ángulos\nLa avanzada tecnología Bluetooth® V5 garantiza una conectividad más estable y mayor alcance de la señal\nIntensifica tu juego con baterías de alto rendimiento. \nTecnología inalámbrica estéreo diseñada para la fluida reproducción de audio por ambos audífonos simultáneamente.",
+        "detalles":"Audífonos TWS para videojuegos \nEstuche de carga portátil\nCable USB Tipo C para carga\nPuntas de silicona para los oídos (S, M, L)\nTarjeta de bienvenida a la legión\nCalcomanía con el logo de Primus®",
+        "imgFolder":"../../../img/gaming/audio/",
+        "imgURL":"AUDIFONO_PRIMUS_PARA_GAMERS_ARCUS_200S-BT/",
+        "img1":"img1.jpg",
+        "img2":"img2.png",
+        "img3":"img3.jpg"
+      },{
+        "subcategoria": "audio",
+        "nombre": "",
+        "precio":"",
+        "precio_anterior":"",
+        "descripcion":"",
+        "detalles":"",
+        "imgFolder":"../../../img/gaming/audio/",
+        "imgURL":"/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },{
+        "subcategoria": "audio",
+        "nombre": "",
+        "precio":"",
+        "precio_anterior":"",
+        "descripcion":"",
+        "detalles":"",
+        "imgFolder":"../../../img/gaming/audio/",
+        "imgURL":"/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      }
+    ]
+  }
+  
