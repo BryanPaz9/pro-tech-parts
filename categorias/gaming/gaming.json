@@ -28,7 +28,7 @@
         "subcategoria": "audio",
         "nombre": "BOCINA CHECKPOINT SX100 RGB",
         "precio":"Q 125.00",
-        "precio_anterior":"130.00",
+        "precio_anterior":"Q 130.00",
         "descripcion":"Checkpoint entiende que el equipo con que juegas debe ser emocionante como los juegos, por ello te presenta las bocinas SX100 RGB compatibles con PC, laptops y celulares, gracias a su conexión 3.5 mm y USB, disfruta de una experiencia de sonido en tus juegos favoritos.",
         "detalles":"Especificaciones\n-Entrada: 5 V 1A\n-Consumo de energía estándar: 0.5 W\n-Potencia de salida: 2* 2.3 W RMS\n-Tamaño del altavoz: 2.5 pulgadas \n-Impedancia del altavoz: 4 Ω\n-Impedancia de entrada: 10 K Ω\n-Frecuencia: 20 Hz - 20 kHz\n-Separación: 50 dB\n-Sensibilidad de entrada: 630 mw ± 50\n-Relación de señal / ruido: 50 dB\n-Dimensiones: 78 x 105 x 175 mm\n-Peso: 0.75 g",
         "imgFolder":"../../../img/gaming/audio/",
@@ -36,6 +36,42 @@
         "img1":"img1.jpeg",
         "img2":"img2.jpg",
         "img3":"img3.jpeg"
+      },{
+        "subcategoria": "cases",
+        "nombre": "ASUS ROG STRIX HELIOS",
+        "precio":"Q 3,385.00",
+        "precio_anterior":"Q 3,526.00",
+        "descripcion":"El ROG Strix Helios es un chasis de media torre para gaming con tres paneles de vidrio templado, estructura de aluminio e iluminación RGB integrada en el panel frontal. La organización interna del cableado y la cubierta multifunción con soportes de GPU ayudan a mantener el interior ordenado. Diseñado para soportar placas base EATX y configuraciones profesionales de refrigeración por agua, este chasis una opción perfecta para montar equipos ROG de exhibición.",
+        "detalles":"Tamaño del gabinete\nMid Tower\nSoporte para tarjeta madre\nEATX (12x10.9)\nATX\nMicro-ATX\nMini-ITX\nBahías para unidades\n4 x 2.5 Bay\n2 x 2.5/3.5 Combo Bay\nPuertos de expansión\n8\n2 (additional vertical)\nPuerto frontal\n1 x Headphone\n1 x Microphone\n4 x USB 3.1 Gen1\n1 x USB 3.1 Gen2 Type C\nLED Control Button\nFan Control Button\nReset Button\nVidrio templado\nFront Side\nLeft Side\nRight Side\nSoporte para radiador (frente)\n120 mm\n140 mm\n240 mm\n280 mm\n360 mm\n420 mm\nSoporte para radiador (superior)\n120 mm\n140 mm\n240 mm\n280 mm\n360 mm\nSoporte para radiador (trasero)\n120 mm\n140 mm\nSoporte para enfriamiento (frente)\n3 x 120 mm\n3 x 140 mm\nRadiator + Fan Thickness: Max. 90 mm\nSoporte para enfriamiento (superior)\n3 x 120 mm\n2 x 140 mm\nRadiator + Fan Thickness: Max. 60 mm\nSoporte para enfriamiento (trasero)\n1 x 120 mm\n1 x 140 mm\nVentiladores preinstalados (frente)\n3 x 140 mm\nVentiladores preinstalados (traseros)\n1 x 140 mm\nAltura máxima de ventilador para CPU\n190 mm\nLongitud máxima de GPU\n450 mm (Riser Cable above 200mm in length is required for one GPU install in vertical position)\nLongitud máxima de fuente\n220 mm\nFiltros de polvo removibles\nFront\nTop\nBottom\nEspacio máximo para ocultar cables\n33 mm\nDimensiones\n250 x 565 x 591 mm\nPeso\n18Kg",
+        "imgFolder":"../../../img/gaming/cases/",
+        "imgURL":"ASUS_ROG_STRIX_HELIOS/",
+        "img1":"img1.png",
+        "img2":"img2.png",
+        "img3":"img3.png"
+      },{
+        "subcategoria": "cases",
+        "nombre": "CORSAIR CRYSTAL 680X RGB",
+        "precio":"Q 2,295.00",
+        "precio_anterior":"Q 2,391.00",
+        "descripcion":"El 680X RGB, evolución de uno de los diseños de chasis CORSAIR más populares, es el máximo representante de nuestra línea de productos de enfriamiento de doble cámara. Mientras que una cámara se enfría activamente con una gran cantidad de puntos de montaje de radiadores y ventiladores, la otra ofrece un amplio espacio para renrutamiento de cables, almacenaje de unidades y montaje de la fuente de alimentación, lo que facilita más que nunca conseguir un sistema inmaculado.",
+        "detalles":"Dimensiones de la caja: 423 mm x 344 mm x 505 mm\nLongitud máxima de: GPU 330 mm\nLongitud máxima de: PSU 225 mm\nAltura máxima del enfriador de la: CPU 180 mm\nRanuras de expansión de cajas: 8 + 2 verticales\nCarcasas de unidad (x3) 3.5 pulgadas: (x4) 2.5 pulgadas\nFactor de forma de la caja en la mitad de la torre\nCaja de cristal templado con ventana\niCUE habilitado: Sí\nMaterial de la Caja:  Acero, Vidrio Templado\nCompatibilidad con radiador:  120 mm, 140 mm, 240 mm, 280 mm, 360 mm\nRefrigeradores líquidos compatibles con Corsair: H55, H60, H75, H80i, H90, H100i, H105, H110i, H115i, H150i\nFuente de alimentación ATX (no incluida)\nPeso: 11.58kg / 25.53lbs\nIluminación: RGB\nCase Drive Bays: 3.5 3\nCase Drive Bays: 2.5 4",
+        "imgFolder":"../../../img/gaming/cases/",
+        "imgURL":"CORSAIR_CRYSTAL_680X_RGB/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },{
+        "subcategoria": "cases",
+        "nombre": "CORSAIR ICUE 5000X RGB",
+        "precio":"Q 1,715.00",
+        "precio_anterior":"Q 1,786.00",
+        "descripcion":"El 5000X RGB hace que una PC impresionante y digna de una obra maestra sea fácil de construir y más fácil de mantener fresca con el espacio y la flexibilidad para montar múltiples radiadores de 360 ​​mm, todo rodeado por un hermoso vidrio templado en cuatro lados.",
+        "detalles":"Dimensiones de la caja: 520 mm x 245 mm x 520 mm\nLongitud máxima de GPU: 400\nLongitud máxima de la fuente de alimentación: 250\nAltura máxima del enfriador de la CPU: 170\nRanuras de expansión: 7 verticales + 2 horizontales\nBahías de unidad de caja:(x2) 3,5 pulgadas (x4) 2,5 pulgadas\nFactor de forma: TORRE MEDIA\nCaso con ventana: Vidrio templado\nCorsair Link habilitado: sí\nColor: Blanco\nMaterial de la Caja: Acero, vidrio templado, plástico\nCompatibilidad del radiador:120 mm, 140 mm, 240 mm, 280 mm, 360 mm E / S frontal de la caja\n(1x) USB 3.1 Tipo C, (2x) USB 3.0, (1x) Entrada / salida de audio\nRefrigeradores líquidos Corsair compatibles: H55, H60, H75, H80i, H90, H100i, H105, H110i, H115i, H150i\nFuente de alimentación de la caja: ATX\nPeso: 13,84\nEncendiendo: RGB\nBahías de unidad de 3,5 : 2\nBahías de unidad de 2,5 : 4\nAltura: 520\nLargo: 520\nAncho: 245",
+        "imgFolder":"../../../img/gaming/cases/",
+        "imgURL":"CORSAIR_ICUE_5000X_RGB/",
+        "img1":"img1.png",
+        "img2":"img2.jpeg",
+        "img3":"img3.png"
       }
     ]
   }
