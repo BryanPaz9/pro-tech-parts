@@ -167,6 +167,45 @@
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "memorias",
+        "nombre": "DDR4 4GB 2666MHZ CL19",
+        "precio":"Q 165.00",
+        "precio_anterior":"Q 172.00",
+        "descripcion":"Este documento describe que el KVR26N19S6 / 4 de ValueRAM es un módulo de memoria DDR4-2666 CL19 SDRAM (DRAM síncrono) de 512 M x 64 bits (4 GB), 1Rx16, basado en cuatro componentes FBGA de 512 M x 16 bits. El SPD está programado para la latencia estándar JEDEC DDR4-2666 de 19-19-19 a 1,2 V. Cada DIMM de 288 pines utiliza dedos de contacto dorados. Las especificaciones eléctricas y mecánicas son las siguientes",
+        "detalles":"Fuente de alimentación: VDD = 1,2 V típico\n VDDQ = 1,2 V típico\n VPP = 2,5 V típico\n VDDSPD = 2,2 V a 3,6 V\n Terminación nominal y dinámica en la matriz (ODT) para señales de datos, luz estroboscópica y máscara\n Bajo autoactualización automática de energía (LPASR)\n Inversión del bus de datos (DBI) para el bus de datos\n Generación y calibración de VREFDQ en la matriz\n Rango único\n EEPROM de detección de presencia en serie I2 (SPD) integrada\n 8 bancos internos 2 grupos de 4 bancos cada uno\n Corte de ráfaga fija (BC) de 4 y longitud de ráfaga (BL) de 8 a través del conjunto de registros de modo (MRS)\n BC4 o BL8 seleccionable sobre la marcha (OTF)\n Topología de vuelo\n Bus de dirección y comando de control terminado\n PCB: Altura 1.23 (31.25 mm)\n Cumple con RoHS y libre de halógenos",
+        "imgFolder":"../../../img/componentes/memorias/",
+        "imgURL":"DDR4_4GB_2666MHZ_CL19/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.png"
+      },
+      {
+        "subcategoria": "memorias",
+        "nombre": "DDR4 8G 2666MHZ CL19",
+        "precio":"Q 205.00",
+        "precio_anterior":"Q 214.00",
+        "descripcion":"Módulo de memoria SDRAM (DRAM Sincrónico) CL19 DDR4-2666 de 1G x 64 bits (8 GB), 1Rx8, basado en ocho componentes FBGA de 1G x 8 bits. El SPD está programado según la temporización DDR4-2666 de latencia estándar JEDEC de 19-19-19 a 1,2 V. Cada DIMM de 288 patillas utiliza dedos de contacto de oro.",
+        "detalles":"Fuente de alimentación: VDD=1,2 V típica \nVDDQ = 1,2 V típica \nVPP - 2,5 V típica \nVDDSPD=2,2 V a 3,6 V \nTerminación en el chip (ODT) nominal y dinámica para señales de datos, estroboscópicas y de máscara \nAutorrecuperación automática de bajo consumo (LPASR) \nInversión de bus de datos (DBI) para bus de datos \nGeneración y calibración VREFDQ en el chip \nUn solo rango \nEEPROM de detección de presencia (SPD) serie I2 integrada \n16 bancos internos; 4 grupos de 4 bancos cada uno \nRáfaga fija (BC) de 4 y longitud de ráfaga (BL) de 8 a través del conjunto de registros de modo (MRS) \nBC4 o BL8 seleccionable sobre la marcha (OTF) \nTopología Fly-by \nComando de control y bus de dirección terminados \nPlaca de circuito impreso: altura 1,23” (31,25 mm) \nConforme a RoHS y libre de halógenos",
+        "imgFolder":"../../../img/componentes/memorias/",
+        "imgURL":"DDR4_8G_2666MHZ_CL19/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "memorias",
+        "nombre": "DDR4 8G 3200MHZ CL22",
+        "precio":"Q 215.00",
+        "precio_anterior":"Q 224.00",
+        "descripcion":"Es un 1G x 64 bits (8 GB) DDR4-3200 CL22 SDRAM (DRAM síncrona),\n1Rx16, módulo de memoria, basado en cuatro FBGA de 1G x 16 bits\ncomponentes El SPD está programado según el estándar JEDEC\nlatencia DDR4-3200 temporización de 22-22-22 a 1,2 V. cada uno de 288 pines\nDIMM utiliza dedos de contacto dorados. El electrico y mecanico",
+        "detalles":"Fuente de alimentación: VDD = 1,2 V típico, VDDQ = 1,2 V típico, VPP = 2,5 V típico, VDDSPD = 2,2 V a 3,6 V\nTerminación en matriz (ODT) nominal y dinámica para señales de datos, estroboscópicas y de máscara\nActualización automática de bajo consumo (LPASR)\nInversión de bus de datos (DBI) para bus de datos\nGeneración y calibración de VREFDQ en matriz\nRango único\nEEPROM de detección de presencia en serie (SPD) I2 integrada\n8 bancos internos; 2 grupos de 4 bancos cada uno\nCorte de ráfaga fijo (BC) de 4 y longitud de ráfaga (BL) de 8 a través del conjunto de registros de modo (MRS)\nBC4 o BL8 seleccionable sobre la marcha (OTF)\nTopología de paso\nComando de control terminado y bus de direcciones\nPCB: Altura 1,23” (31,25 mm)\nCumple con RoHS y libre de halógenos",
+        "imgFolder":"../../../img/componentes/memorias/",
+        "imgURL":"DDR4_8G_3200MHZ_CL22/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
       }
     ]
   }
