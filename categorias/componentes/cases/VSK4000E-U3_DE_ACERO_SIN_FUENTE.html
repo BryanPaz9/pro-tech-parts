@@ -36,7 +36,7 @@
 			    let componentes = [{}];
 				let producto;
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
-				const urlproduct = '205153_CABLE_MANHATTAN/';
+				const urlproduct = 'VSK4000E-U3_DE_ACERO_SIN_FUENTE/';
 				//Obtener info del producto en el json.
 				fetch('../../componentes/componentes.json')
 				.then(response=>response.json())
@@ -47,7 +47,7 @@
 					console.log(producto);
 					//nombre de producto
 					document.getElementById('producto').innerHTML = producto.nombre;
-
+					document.getElementById('subcategoria').innerHTML = producto.subcategoria;
                     document.getElementById('nombre_producto').innerHTML = producto.nombre;
 					//precios
 					document.getElementById('precio').innerHTML = producto.precio;
@@ -258,7 +258,7 @@
 							<li><a href="#">INICIO</a></li>
 							<li><a href="#">CATEGORIAS</a></li>
 							<li><a href="#">COMPONENTES</a></li>
-							<li><a href="#">CABLES</a></li>
+							<li><a href="#" id="subcategoria"></a></li>
 							<li class="active" id="producto"></li>
 						</ul>
 					</div>

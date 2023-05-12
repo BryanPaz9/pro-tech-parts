@@ -31,11 +31,12 @@
 			window.onload = function(){
 				setTimeout(carga_contenido,400)
 			}
+			
 			function carga_contenido(){
 			    let componentes = [{}];
 				let producto;
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
-				const urlproduct = '342766_CABLE_DE_MOLEX_A_SATA/';
+				const urlproduct = 'DISCO_DURO_INTERNO_1TB_WESTERN_DIGITAL/';
 				//Obtener info del producto en el json.
 				fetch('../../componentes/componentes.json')
 				.then(response=>response.json())

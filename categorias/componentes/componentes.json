@@ -51,6 +51,45 @@
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "cases",
+        "nombre": "VSK4000E-U3 DE ACERO SIN FUENTE",
+        "precio":"Q 765.00",
+        "precio_anterior":"Q 797.00",
+        "descripcion":"El VSK4000E-U3 también cumple con las pautas de Thermally Advantage Chasis (TAC) 2.0 y está actualizado con dos puertos USB 3.0, nueve bahías para unidades y siete ranuras de expansión.La construcción de un sistema comienza con la compra de una caja, luego vienen las piezas que lo componen, cuyo costo puede aumentar muy rápidamente.El VSK4000E-U3 está aquí para proporcionar la plataforma básica para comenzar a construir su propio sistema.Su diseño humilde y su funcionalidad práctica contienen los fundamentos para un chasis de alto rendimiento.La línea VSK está diseñada para ser un trampolín para quienes deseen actualizar su sistema más adelante.Cada chasis sirve devotamente a su propósito como una parte rentable e inolvidable de la experiencia de construcción de su sistema.",
+        "detalles":"Especificaciones\nModelo: VSK4000E-U3\nDimensiones de la unidad:\n- 16,2” (alto) x 7,3” (ancho) x 17,3” (profundidad)\n- 412 mm (alto) x 185 mm (ancho) x 440 mm (profundidad)\nSoporte de refrigeración por agua: ojales de enfriamiento de agua traseros\nPuertos frontales: - 2 x USB 3.0 - Entrada/salida de audio\nTipo de case: Torre central\nSistema de refrigeración Puertos frontales:\n- 1 extractor de aire trasero de 120 mm\n- 1 ventilador de aspiración frontal de 120 mm (opcional)\nBahías de unidad:\n- 3 bahías para unidades externas de 5,25 pulgadas \n- 1 bahía para unidad de disquete externa\n- 5 bahías HDD internas de 3,5 pulgadas \nSoporte de placa base:\nATX estándar, microATX, Mini-ITX\nColor: Negro\nPeso:\n- Peso neto 11,0 libras / 5,0 kg\n- Peso bruto 13,2 libras / 6,0 kg\nRanuras de expansión: 7 ranuras de expansión\nLongitud de la tarjeta VGA:\nHasta 260 mm (con soporte HDD)\nHasta 340 mm (sin soporte HDD)",
+        "imgFolder":"../../../img/componentes/cases/",
+        "imgURL":"VSK4000E-U3_DE_ACERO_SIN_FUENTE/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "cases",
+        "nombre": "XT-GMR3 TORRE ATX",
+        "precio":"Q 445.00",
+        "precio_anterior":"Q 464.00",
+        "descripcion":"DEIMOS | Chasis tipo torre ATX mediana para videojuegos con ventana de acrílico.",
+        "detalles":"Chasis tipo torre ATX mediana para videojuegos con 7 ranuras de expansión para acomodar cualquier componente que desees\nPuertos de audio y de datos en la parte superior: 2 puertos USB 2.0, 1 puerto USB 3.0 y 1 audio HD\nChasis: SPCC 0.5mm en interior negro",
+        "imgFolder":"../../../img/componentes/cases/",
+        "imgURL":"XT-GMR3_TORRE_ATX/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "cases",
+        "nombre": "XTECH XTQ-214 CON FUENTE DE PODER 600WATTS",
+        "precio":"Q 445.00",
+        "precio_anterior":"Q 464.00",
+        "descripcion":" Chasis ATX con unidad de fuente de alimentación<br>Panel con puertos de entrada/salida: <br>Dos puertos USB 2.0, Un puerto USB 3.0, Un puerto para auriculares, Un puerto para micrófono.",
+        "detalles":"Chasis ATX con unidad de fuente de alimentación de 600W\nIncluye dos puertos USB 2.0, un puerto para auriculares y un puerto para micrófono\nAdmite hasta 3 ventiladores optativos\nFuente de alimentación de 600W 1,3VCC/ventilador normal de 80mm Cable de alimentación tipo americano de 1,2m 20+4 CLAVIJAS 2xIDE+1xFDD 2xSATA  \n",
+        "imgFolder":"../../../img/componentes/cases/",
+        "imgURL":"XTECH_XTQ-214_CON_FUENTE_DE_PODER_600WATTS/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
       }
     ]
   }
