@@ -245,6 +245,32 @@
         "img1":"img2.jpg",
         "img2":"img1.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "motherboards",
+        "nombre": "AMD AM4 A320MK",
+        "precio":"Q 555.00",
+        "precio_anterior":"Q 578.00",
+        "descripcion":"Desarrollado por AMD® Ryzen ™ AM4 y los procesadores Athlon ™ de séptima generación para maximizar la conectividad y la velocidad con NVMe M.2, soporte para 32GB de DDR4, USB 3.1 y LAN Gigabit.\nLas protecciones a nivel de hardware de 5X Protection III proporcionan longevidad y confiabilidad de los componentes.\nLa ranura PCIe fortificada SafeSlot Core pendiente de patente previene el daño de las GPU de peso pesado\nFanXpert ofrece controles de ventilador avanzados para un enfriamiento optimizado.\nEl audio HD de 8 canales líder en la industria impulsado por capacitores japoneses presenta un diseño de iluminación LED integrado.",
+        "detalles":"Aislamiento de ruido\nEl blindaje de audio garantiza una separación analógica / digital de precisión y reduce en gran medida la interferencia multilateral.\nCapas de PCB de audio dedicadas\nLas capas separadas para las pistas izquierda y derecha aseguran que ambos canales brinden una calidad uniforme y uniforme.\nDisfrute de audio\nLos condensadores de audio japoneses de primera calidad brindan un sonido cálido, natural y envolvente con una claridad y fidelidad excepcionales.\nDiseño energéticamente eficiente\nEPU\nCon la unidad de procesamiento de energía (EPU), disfrutará de ahorros de energía del sistema. EPU optimiza automáticamente el consumo de energía y maximiza los ahorros con el modo Ausente.",
+        "imgFolder":"../../../img/componentes/motherboards/",
+        "imgURL":"AMD_AM4_A320MK/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "motherboards",
+        "nombre": "ASUS LGA1200 B460MA",
+        "precio":"Q 730.00",
+        "precio_anterior":"Q 760.00",
+        "descripcion":"Socket Intel® LGA 1200: Listo para procesadores Intel® Core™ de ​​11.ª y 10.ª generación.\nSolución de potencia mejorada: 8 fases de poder, chokes de aleación y condensadores duraderos para una entrega de potencia estable.\nRefrigeración completa: Disipador de PCH, puertos de ventilador híbridos y Fan Xpert.\nASUS OptiMem: Enrutamiento cuidadoso de trazas y vías para preservar la integridad de la señal para mejorar la estabilidad de la memoria.\nConectividad ultrarrápida: PCIe® 4.0, Intel® Ethernet de 1 Gb, USB frontal 3.2 Gen 1.",
+        "detalles":"Protección al sobrevoltaje\nDiseño de energía de protección de circuitos de clase mundial.\nUn diseño de circuito exclusivo con reguladores de voltaje incorporados para proteger su placa base de daños causados ​​por voltajes de alto nivel inesperados de fuentes de alimentación inestables o inferiores.\nProtección contra sobrecorriente DRAM\nPrevención de daños por cortocircuito.\nLos fusibles reiniciables integrados evitan daños por sobrecorriente y cortocircuito. Esto se extiende más allá de los puertos de E/S a la DRAM para salvaguardar la vida útil de su sistema y los dispositivos conectados.",
+        "imgFolder":"../../../img/componentes/motherboards/",
+        "imgURL":"ASUS_LGA1200_B460MA/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
       }
     ]
   }
