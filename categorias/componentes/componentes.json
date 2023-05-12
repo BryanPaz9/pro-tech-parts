@@ -90,6 +90,83 @@
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "discos duros",
+        "nombre": "DISCO DURO INTERNO 2TB SEAGATE BARRACUDA",
+        "precio":"Q 440.00",
+        "precio_anterior":"Q 458.00",
+        "descripcion":"Seagate ha dominado el sector del almacenamiento de datos por 40 años.\nComprendemos que enfrenta desafíos de almacenamiento de datos únicos, por lo que hemos diseñado las unidades de disco duro BarraCuda",
+        "detalles":"Formato\n3,5 pulgadas (9 cm)\nIdeal para\nAlmacenamiento de sobremesa y almacenamiento todo en uno, servidores para el hogar, dispositivos DAS\nCapacidad\n2 TB\nRendimiento\nTecnología Multi-Tier Caching\nFunción clave\nAlmacenamiento versátil\nAltura zeta\nAlmacenamiento de sobremesa o relativo a este solamente",
+        "imgFolder":"../../../img/componentes/discos_duros/",
+        "imgURL":"DISCO_DURO_INTERNO_2TB_SEAGATE_BARRACUDA/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },{
+        "subcategoria": "discos duros",
+        "nombre": "DISCO DURO INTERNO 1TB WESTERN DIGITAL",
+        "precio":"Q 365.00",
+        "precio_anterior":"Q 380.00",
+        "descripcion":"Amplíe la capacidad de almacenamiento de su ordenador con los discos WD Blue, diseñados especialmente para ordenadores de sobremesa y todo en uno con diversas capacidades de almacenamiento.",
+        "detalles":"El disco duro WD Blue ofrece grandes capacidades para su ordenador de sobremesa.\nCapacidad: 1 TB\nInterfaz: SATA a 6 Gb/s\nFormato: 3,5 pulgadas\nVelocidad de r. p. m: 7.200",
+        "imgFolder":"../../../img/componentes/discos_duros/",
+        "imgURL":"DISCO_DURO_INTERNO_1TB_WESTERN_DIGITAL/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "discos duros",
+        "nombre": "DISCO DURO INTERNO 1TB SEAGATE BARRACUDA",
+        "precio":"Q 350.00",
+        "precio_anterior":"Q 365.00",
+        "descripcion":"La cartera de unidades BarraCuda es la fuente indispensable para equipos de sobremesa y portátiles. Saque partido de la capacidad líder en el sector y los tiempos de carga acelerados que exigen sus juegos y cargas de trabajo pesados.",
+        "detalles":"Especificaciones\nNúmeros de modelo estándar:  ST1000DM010 \nNúmeros de modelo Seagate Secure: N/A\nBytes por sector: 4.096\nRendimiento\nInterfaz SATA de: 6 Gb/s\nCompatible con transferencias de datos: 6,0/3,0/1,5 \nMáx. velocidad de transferencia continua OD (MB/s): 210MB/s\nCaché, multisegmenta\n\nda (MB): 64\nVelocidad de giro (rpm): 7.200 \nFiabilidad/Integridad de los datos\nCiclos de carga/descarga: 300.000\nErrores de lectura no recuperables por bits leídos, máx:1 por 10E14\nHoras de encendido por año (24 horas,7 días): 2.400\nLímite de carga operativa (TB/año): 55\nAdministración de energía\nCorriente de arranque (A): 2\nModo operativo, típico (W): 5,3\nInactividad promedio: 4,6 W\nModo en espera/Modo descanso, típico (W):0,94/0,94\nTolerancia de voltaje, ruido incluido (5 V)  ±5 %\nTolerancia de voltaje, ruido incluido (12 V): ±10 %\nAmbiental/Temperatura\nEn funcionamiento (ambiente, mín.): 0 °C\nEn funcionamiento (caja de la unidad, máx.): 60 °C\nNo en funcionamiento (ambiente): -40 °C – 70 °C\nSin halógeno: Sí\nCumplimiento con RoHS: Sí\nDatos físicos\nAltura (mm/pulg., máx.): 19,99 mm/0,787 pulg.\nAncho (mm/pulg., máx.): 101,85 mm/4,01 pulg.\nProfundidad (mm/pulg., máx.): 146,99 mm/5,787 pulg.\nPeso (g/lb): 400 g/0,88",
+        "imgFolder":"../../../img/componentes/discos_duros/",
+        "imgURL":"DISCO_DURO_INTERNO_1TB_SEAGATE_BARRACUDA/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "fuentes de poder",
+        "nombre": "FUENTE 500WATTS 230 WATTS REALES",
+        "precio":"Q 115.00",
+        "precio_anterior":"Q 120.00",
+        "descripcion":"Fuente de alimentación de 500W con 2 conectores SATA",
+        "detalles":"Fuente de alimentación eficiente, de tamaño compacto con 2 conectores SATA\nVentilador que disipa el calor y evita el recalentamiento\nEspecificación ATX de 12V compatible con todo tipo de UPC y placa madre\n2x Molex (IDE) + 2 x SATA",
+        "imgFolder":"../../../img/componentes/fuentes/",
+        "imgURL":"FUENTE_500WATTS_230_WATTS_REALES/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "fuentes de poder",
+        "nombre": "FUENTE 600WATTS 250 WATTS REALES",
+        "precio":"Q 170.00",
+        "precio_anterior":"Q 177.00",
+        "descripcion":"Fuente de alimentación de 600W con 2 conectores SATA",
+        "detalles":"Fuente de alimentación eficiente, de tamaño compacto con 2 conectores SATA\nVentilador que disipa el calor y evita el recalentamiento\nEspecificación ATX de 12V compatible con todo tipo de UPC y placa madre\n2x Molex (IDE) + 2 x SATA",
+        "imgFolder":"../../../img/componentes/fuentes/",
+        "imgURL":"FUENTE_600WATTS_250_WATTS_REALES/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "fuentes de poder",
+        "nombre": "FUENTE 700WATTS 260 WATTS REALES",
+        "precio":"Q 235.00",
+        "precio_anterior":"Q 245.00",
+        "descripcion":"Fuente de alimentación de 700W con 2 conectores SATA",
+        "detalles":"Fuente de alimentación eficiente, de tamaño compacto con 2 conectores SATA\nVentilador que disipa el calor y evita el recalentamiento\nEspecificación ATX de 12V compatible con todo tipo de UPC y placa madre\n2x Molex (IDE) + 2 x SATA",
+        "imgFolder":"../../../img/componentes/fuentes/",
+        "imgURL":"FUENTE_700WATTS_260_WATTS_REALES/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
       }
     ]
   }
