@@ -206,6 +206,45 @@
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "monitores",
+        "nombre": "AOC 1600x900 HDMI",
+        "precio":"Q 850.00",
+        "precio_anterior":"Q 953.00",
+        "descripcion":"El AOC 20E1H está listo para sus necesidades corporativas.Ya sea que esté buscando un monitor económico o algo para ahorrar energía, 20E1H ofrece justo lo que necesita.",
+        "detalles":"Detalle de pantalla\nColor del monitor: negro\nTamaño del monitor: 19.5 pulgadas\nResolución: 1600x900\nFrecuencia de actualización: 60Hz\nTiempo de respuesta: 5 ms\nPanel tipo: TN\nLuz azul: baja \nLuz de fondo: WLED\nCobertura SRGB en color: 99\nSin destellos: Si\nRelación de aspecto: 16: 9\nBrillo: 250\nContraste (dinámico): 20M: 1\n\nContraste (estático): 1000: 1\nTamaño de píxel: 0.2712\nÁrea de pantalla activa: 433.92 x 236.34\nÁngulo de visión (CR10): 170/160 º\nColores: 16,7 millones\nBisel tipo: Normal\nFrecuencia de escaneo: 30 -83kHz (H) 50-76 Hz (V)\nCobertura Adobe RGB (%): 73\nLenguajes: OSD EN, FR, ES, PT, DE, IT, NL, SE, FI, PL, CZ, RU, KR, CN (T), CN (S), JP\nVidrio duro 3H\nConexiones\nEntrada de señal: HDMI 1.4 x 1, VGA\nEntrada de audio en: línea\nSalida de audio Salida de: auriculares (3,5 mm)\nCaracterísticas\nPantalla: plana\nQué hay en la caja\n\nCable VGA\nSustentabilidad\n\nRoHS: Si\nErgonomía\nInclinación -3.5 ° ~ 21.5 °\nRemoción de base: Si\n\nVesa: 100x100\nPoder\nFuente de alimentación interna\nFuente de alimentación:  100 - 240V 50 / 60Hz\nClase energética:  A\nConsumo de energía en:  14 vatios\nConsumo de energía Standy: 0.5 vatios\nDimensiones\nDimensiones del producto, incluida la base: mm x mm x mm 18,17 x 14,93 x 7,85pulg.\nDimensiones del cartón mm x mm x mm: 20.51 x 14.49 x 5.51pulg.\nPeso neto sin paquete kg: 5,18\n\nPeso bruto incluido paquete kg: 7.63",
+        "imgFolder":"../../../img/componentes/monitor/",
+        "imgURL":"AOC_1600x900_HDMI/",
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "monitores",
+        "nombre": "AOC 1920x1080 HDMI",
+        "precio":"Q 900.00",
+        "precio_anterior":"Q 983.00",
+        "descripcion":"Las pantallas VA ofrecen ángulos de visión de 178/178 grados mientras mantienen una calidad de imagen y colores constantes desde todas las posiciones de visualización.También puede ver sus hojas de cálculo o películas de fin de semana desde prácticamente cualquier ángulo sin comprometer la uniformidad del color.",
+        "detalles":"Detalle de pantalla\nColor del monitor: negro\nTamaño del monitor: 19.5 pulgadas\nResolución: 1600x900\nFrecuencia de actualización: 60Hz\nTiempo de respuesta: 5 ms\nPanel tipo: TN\nLuz azul: baja \nLuz de fondo: WLED\nCobertura SRGB en color: 99\nSin destellos: Si\nRelación de aspecto: 16: 9\nBrillo: 250\nContraste (dinámico): 20M: 1\n\nContraste (estático): 1000: 1\nTamaño de píxel: 0.2712\nÁrea de pantalla activa: 433.92 x 236.34\nÁngulo de visión (CR10): 170/160 º\nColores: 16,7 millones\nBisel tipo: Normal\nFrecuencia de escaneo: 30 -83kHz (H) 50-76 Hz (V)\nCobertura Adobe RGB (%): 73\nLenguajes: OSD EN, FR, ES, PT, DE, IT, NL, SE, FI, PL, CZ, RU, KR, CN (T), CN (S), JP\nVidrio duro 3H\nConexiones\nEntrada de señal: HDMI 1.4 x 1, VGA\nEntrada de audio en: línea\nSalida de audio Salida de: auriculares (3,5 mm)\nCaracterísticas\nPantalla: plana\nQué hay en la caja\n\nCable VGA\nSustentabilidad\n\nRoHS: Si\nErgonomía\nInclinación -3.5 ° ~ 21.5 °\nRemoción de base: Si\n\nVesa: 100x100\nPoder\nFuente de alimentación interna\nFuente de alimentación:  100 - 240V 50 / 60Hz\nClase energética:  A\nConsumo de energía en:  14 vatios\nConsumo de energía Standy: 0.5 vatios\nDimensiones\nDimensiones del producto, incluida la base: mm x mm x mm 18,17 x 14,93 x 7,85pulg.\nDimensiones del cartón mm x mm x mm: 20.51 x 14.49 x 5.51pulg.\nPeso neto sin paquete kg: 5,18\n\nPeso bruto incluido paquete kg: 7.63",
+        "imgFolder":"../../../img/componentes/monitor/",
+        "imgURL":"AOC_1920x1080_HDMI/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "monitores",
+        "nombre": "ASUS 1920x1080 HDMI",
+        "precio":"Q 880.00",
+        "precio_anterior":"Q 917.00",
+        "descripcion":"VP228HE El monitor Full HD de 21.5 pulgadas con una relación de alto contraste de 100,000,000: 1, las tecnologías SplendidPlus y VividPixel exclusivas de ASUS están optimizadas para la mejor calidad de imagen y color. Este enfoque se extiende al soporte robusto y al perfil delgado sin comprometer el estilo para garantizar la estabilidad y durabilidad.",
+        "detalles":"Tecnología sin parpadeo\nEs hora de decir adiós a esos ojos cansados ​​y tensos. VP228HE cuenta con tecnología ASUS Flicker-Free certificada por TÜV Rheinland para reducir el parpadeo para una experiencia de visualización cómoda. Esta tecnología ayuda a minimizar los casos de fatiga visual y otras dolencias perjudiciales, especialmente cuando pasa largas e innumerables horas frente a una pantalla viendo videos favoritos.",
+        "imgFolder":"../../../img/componentes/monitor/",
+        "imgURL":"ASUS_1920x1080_HDMI/",
+        "img1":"img2.jpg",
+        "img2":"img1.jpeg",
+        "img3":"img3.jpeg"
       }
     ]
   }
