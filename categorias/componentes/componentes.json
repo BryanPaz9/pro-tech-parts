@@ -349,6 +349,19 @@
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "ventiladores",
+        "nombre": "INTEL VENTILADOR LGA1150",
+        "precio":"Q 235.00",
+        "precio_anterior":"Q 253.00",
+        "descripcion":"Ventilador para procesador INTEL Socket LGA1150",
+        "detalles":"Socket 1150/1155/1156 4-Pin \nCPU Cooler con disipador de aluminio \nVentilador de 3,5 pulgadas para computadora de escritorio Computadora PC de escritorio",
+        "imgFolder":"../../../img/componentes/ventiladores/",
+        "imgURL":"INTEL_VENTILADOR_LGA1150/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img1.jpg"
       }
     ]
   }
