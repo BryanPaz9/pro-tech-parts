@@ -271,6 +271,45 @@
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "mouses",
+        "nombre": "KLIP KMO 506",
+        "precio":"Q 105.00",
+        "precio_anterior":"Q 110.00",
+        "descripcion":"El mouse vertical de diseño contorneado KMO-506 con conexión USB de KlipXtreme ha sido diseñado para evitar cualquier tensión innecesaria y brindar un apoyo adicional para la mano y la muñeca cuando necesitas pasar largas horas frente al computador. Logra la máxima capacidad operativa por medio de sus seis botones súper sensibles y alterna entre las diferentes resoluciones DPI que te permiten deslizar el cursor con mayor suavidad y precisión, prácticamente sobre cualquier superficie.",
+        "detalles":"Mouse vertical cableado de seis botones con diseño ergonómico y contorneado para máxima comodidad y funcionalidad en entornos laborales con gran actividad\nLa ubicación de la mano y la muñeca en forma vertical sobre el mouse ayuda a reducir la tensión de los usuarios diestros\nLa rueda de desplazamiento y los seis botones ubicados de manera conveniente mejoran la capacidad operativa\nResolución de 1000 y 1600 DPI para un deslizamiento suave y preciso, prácticamente en cualquier superficie\nElaborado con materiales de calidad para mayor durabilidad, y un acabado engomado mate para un agarre superior y mayor control\nConfiguración automática plug and play a través de una conexión USB.",
+        "imgFolder":"../../../img/componentes/mouse/",
+        "imgURL":"KLIP_KMO_506/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.png"
+      },
+      {
+        "subcategoria": "mouses",
+        "nombre": "XTM 195 USB",
+        "precio":"Q 23.00",
+        "precio_anterior":"Q 28.00",
+        "descripcion":"Mouse 3D de tres botones con cable y diseño ambidextro.Conexión USB con configuración plug and play que no necesita instalación de software.Con iluminación interior y desplazamiento suave sobre cualquier superficie.",
+        "detalles":"Tipo: Mouse 3D de tres botones con cable\nTecnología : Sensor ótpico\nResolution: 1000dpi\nInterfaz: USB\nEstándar de compatibilidad: Configuración automática plug and play\nRequisitos del sistema: Familia Windows®\nColor : Negro\nPeso: 59g\nDimensiones (LaxAnxAl): 10 x5.8x3.5cm\nLongitud del cable: 1.35m\nGarantía: Un año.",
+        "imgFolder":"../../../img/componentes/mouse/",
+        "imgURL":"XTM_195_USB/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpg",
+        "img3":"img3.jpg"
+      },
+      {
+        "subcategoria": "mouses",
+        "nombre": "MICROSOFT ERGONOMIC BLUETOOTH",
+        "precio":"Q 295.00",
+        "precio_anterior":"Q 307.00",
+        "descripcion":"Trabaje con comodidad todo el día con nuestro mouse ergonómico inalámbrico premium.Navegue con precisión y acceda a las funciones más utilizadas con dos botones programables.",
+        "detalles":"Especificaciones técnicas\nInterfaz de conexión: Compatible con Bluetooth® de bajo consumo 4.0.\nFrecuencia inalámbrica: Rango de frecuencia de 2,4 GHz.\nAlcance inalámbrico: 30 pies (10 metros) en área abierta; hasta 15 pies (5 metros) en un entorno típico de oficina.\nCompatibilidad: Microsoft Windows 10.\nEl dispositivo debe ser compatible con Bluetooth® 4.0 o superior.\nCaracterísticas\nDimensiones: 4,65 x 3,00 x 1,67 pulgadas (118,2 x 76,3 x 42,4 mm).\nPeso: 3,21 oz (91 g) (incluidas las pilas).\nBatería: 2 pilas alcalinas AAA.\nDuración de la batería: Hasta 12 meses, la duración de la batería puede variar según el usuario y las condiciones informáticas.\nColor: Negro.",
+        "imgFolder":"../../../img/componentes/mouse/",
+        "imgURL":"MICROSOFT_ERGONOMIC_BLUETOOTH/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
       }
     ]
   }
