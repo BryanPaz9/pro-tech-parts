@@ -73,6 +73,45 @@
         "img2":"img2.jpeg",
         "img3":"img3.png"
       }
+
+
+      ,{
+        "subcategoria": "ventiladores",
+        "nombre": "CORSAIR PWM 140 X2",
+        "precio":"Q ",
+        "precio_anterior":"",
+        "descripcion":"",
+        "detalles":"",
+        "imgFolder":"../../../img/gaming/ventiladores/",
+        "imgURL":"CORSAIR_PWM_140_X2/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },{
+        "subcategoria": "ventiladores",
+        "nombre": "CORSAIR ICUE 120",
+        "precio":"Q ",
+        "precio_anterior":"",
+        "descripcion":"",
+        "detalles":"",
+        "imgFolder":"../../../img/gaming/ventiladores/",
+        "imgURL":"CORSAIR_ICUE_120/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      },{
+        "subcategoria": "ventiladores",
+        "nombre": "CORSAIR DLRGB 120",
+        "precio":"Q ",
+        "precio_anterior":"",
+        "descripcion":"",
+        "detalles":"",
+        "imgFolder":"../../../img/gaming/ventiladores/",
+        "imgURL":"CORSAIR_DLRGB_120/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
+      }
     ]
   }
   
