@@ -310,6 +310,45 @@
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "procesadores",
+        "nombre": "INTEL CELERON G5925",
+        "precio":"Q 475.00",
+        "precio_anterior":"Q 495.00",
+        "descripcion":"Vea, lea, mire, transmita, escuche y aprenda. Los procesadores Intel® Celeron® más recientes ofrecen una experiencia de videoconferencia asombrosa, un mayor ancho de banda con Intel® Wi-Fi 6 y una batería que dura toda la jornada escolar para un proceso educativo sin interrupciones. Experimenta una colaboración fluida Los procesadores Intel® Celeron® simplifican el aprendizaje a distancia con Intel® Wi-Fi 6 para videoconferencias. Son ideales para entornos de aula virtual densos gracias a su capacidad para trabajar en condiciones de baja iluminación, el procesamiento de lenguaje natural y la cancelación de ruido de fondo.",
+        "detalles":"Compatible con la memoria Intel® Optane™ ‡ Sí\nIntel® Thermal Velocity Boost No\nTecnología Intel® Turbo Boost Max 3.0 ‡ No\nTecnología Intel® Turbo Boost ‡ No\nIdoneidad para la plataforma Intel® vPro™ ‡ No\nTecnología Intel® Hyper-Threading ‡ No\nTecnología de virtualización Intel® (VT-x) ‡ Sí\nTecnología de virtualización Intel® para E/S dirigida (VT-d) ‡ Sí\nIntel® VT-x con tablas de páginas extendidas (EPT) ‡ Sí\nIntel® Transactional Synchronization Extensions – New Instructions No\nIntel® 64 ‡ Sí\nConjunto de instrucciones 64-bit\nExtensiones de conjunto de instrucciones Intel® SSE4.1, Intel® SSE4.2\nEstados de inactividad Sí\nTecnología Intel SpeedStep® mejorada Sí\nTecnologías de monitoreo térmico Sí\nTecnología de protección de la identidad Intel® ‡ Sí\nPrograma Intel® de imagen estable para plataformas (SIPP) No\nZócalos compatibles FCLGA1200\nMáxima configuración de CPU 1\nEspecificación de solución térmica PCG 2015C\nTJUNCTION 100°C\nTamaño de paquete 37.5mm x 37.5mm",
+        "imgFolder":"../../../img/componentes/procesadores/",
+        "imgURL":"INTEL_CELERON_G5925/",
+        "img1":"img1.jpg",
+        "img2":"img2.png",
+        "img3":"img3.jpeg"
+      },
+      {
+        "subcategoria": "procesadores",
+        "nombre": "INTEL I3 10100F",
+        "precio":"Q 700.00",
+        "precio_anterior":"Q 735.00",
+        "descripcion":"Las características de desempeño inteligente incorporadas aprenden y se adaptan a lo que usted hace, dirigiendo dinámicamente la potencia donde usted más la necesita. Los procesadores Intel® Core™ de 10ᵐᵃ Generación  ofrecen la capacidad de respuesta para hacer más.",
+        "detalles":"Conjunto de productos: Procesadores Intel® Core™ i3 de 10ma Generación\nNombre de código: Productos anteriormente Comet Lake\nSegmento vertical: Desktop\nNúmero de procesador: i3-10100F\nEstado: Launched\nFecha de lanzamiento: Q4'20\nLitografía: 14 nm\nCondiciones de uso: PC/Client/Tablet\n\nEspecificaciones de la CPU\nCantidad de núcleos: 4\nCantidad de subprocesos: 8\nFrecuencia básica del procesador: 3,60 GHz\nFrecuencia turbo máxima: 4,30 GHz\nCaché: 6 MB Intel® Smart Cache\nVelocidad del bus: 8 GT/s\nFrecuencia de la Tecnología Intel® Turbo Boost 2.0‡: 4.30 GHz\nTDP: 65 W\n\nInformación adicional\nOpciones integradas disponibles: No",
+        "imgFolder":"../../../img/componentes/procesadores/",
+        "imgURL":"INTEL_I3_10100F/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img1.jpg"
+      },
+      {
+        "subcategoria": "procesadores",
+        "nombre": "INTEL PENTIUM G6405",
+        "precio":"Q 621.00",
+        "precio_anterior":"Q 653.00",
+        "descripcion":"La Tecnología Intel® Turbo Boost aumenta dinámicamente la frecuencia del procesador cuando sea necesario, sacando provecho de la ampliación térmica y de energía para que tenga un impulso en la velocidad cuando lo necesite, y un aumento en la eficacia energética cuando no.",
+        "detalles":"\nFrecuencia de base de gráficos: 350 MHz.\nFrecuencia dinámica máxima de gráficos: 1.05 GHz.\nMemoria máxima de video de gráficos: 64 GB.\nCompatibilidad con 4K: Si, a 60Hz.\nResolución máxima (HDMI): 4096 x 2160 @ 30Hz.\nResolución máxima (DP): 4096 x 2304 @ 60Hz.\nResolución máxima (eDP - panel plano integrado): 4096 x 2304 @ 60Hz.\nCompatibilidad con DirectX: 12.\nCompatibilidad con OpenGL: 4.5.\nIntel® Quick Sync Video: Sí.\nTecnología Intel® InTru™ 3D: Sí.\nTecnología Intel® Clear Video HD: Sí.\nTecnología Intel® de video nítido: Sí.\nCantidad de pantallas admitidas: 3.\nID de dispositivo: 0x9BA8.",
+        "imgFolder":"../../../img/componentes/procesadores/",
+        "imgURL":"INTEL_PENTIUM_G6405/",
+        "img1":"img1.jpg",
+        "img2":"img2.jpeg",
+        "img3":"img3.jpeg"
       }
     ]
   }
