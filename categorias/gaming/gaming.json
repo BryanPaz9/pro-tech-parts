@@ -72,10 +72,7 @@
         "img1":"img1.png",
         "img2":"img2.jpeg",
         "img3":"img3.png"
-      }
-
-
-      ,{
+      },{
         "subcategoria": "ventiladores",
         "nombre": "CORSAIR PWM 140 X2",
         "precio":"Q 470.00",
@@ -147,13 +144,17 @@
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
-      },{
+      },
+      
+      
+      
+      {
         "subcategoria": "tarjetas",
         "nombre": "ASUS TUF GAMING RTX 4080 16GB",
-        "precio":"Q ",
-        "precio_anterior":"Q ",
-        "descripcion":"",
-        "detalles":"",
+        "precio":"Q 14,385.00",
+        "precio_anterior":"Q 14,984.00",
+        "descripcion":"ASUS GPU Tweak III es más intuitivo y rico en funciones que nunca. Una interfaz renovada ofrece una mayor accesibilidad mediante la integración de funciones básicas en un tablero centralizado, y nuestro sintonizador de voltaje-frecuencia se ha revisado para facilitar aún más el overclocking. Las ventajas adicionales como la tecnología de ventilador 0dB, el intercambio automático de perfiles, una visualización en pantalla totalmente personalizable y las capacidades de registro garantizan que aproveches al máximo tu tarjeta gráfica.",
+        "detalles":"Multiprocesadores de streaming NVIDIA Ada Lovelace: Hasta el doble de rendimiento y eficiencia energética.\nTensor Cores de 4.ª generación: Rendimiento hasta 4x con DLSS 3 vs renderizado completo.\nRT Cores de 3.ª generación: Hasta 2X rendimiento en ray tracing.\nVentiladores de Axial-tech ampliados para ofrecer un 23% más de flujo de aire.\nLos baleros de ventilador de doble bola duran hasta el doble que los diseños convencionales.\nLos condensadores de grado militar clasificados para 20,000 horas a 105°C hacen que la línea de alimentación de la GPU sea más duradera.\nExoesqueleto de metal agrega rigidez estructural y ventilaciones para aumentar la disipación de calor.\nAuto-Extreme fabricación automatizada de precisión para una mayor confiabilidad.\nEl software GPU Tweak III proporciona ajustes de rendimiento intuitivos, controles térmicos y supervisión del sistema.",
         "imgFolder":"../../../img/gaming/tarjetas/",
         "imgURL":"ASUS_TUF_GAMING_RTX_4080_16GB/",
         "img1":"img1.jpg",
@@ -162,10 +163,10 @@
       },{
         "subcategoria": "tarjetas",
         "nombre": "ASUS ROG STRIX RADEON RX6700 12GB",
-        "precio":"Q ",
-        "precio_anterior":"Q ",
-        "descripcion":"",
-        "detalles":"",
+        "precio":"Q 4,780.00",
+        "precio_anterior":"Q 4,560.00",
+        "descripcion":"La ROG Strix Radeon™ RX 6700 XT combina una solución de enfriamiento líder en la industria con un rendimiento energético de alta gama y comodidades adicionales. Debajo de la superficie, un enorme disipador de calor es enfriado por un trío de ventiladores Axial-tech que utilizan un nuevo esquema de rotación y funciones especializadas para ventiladores centrales y auxiliares. En el corazón de la bestia, los capacitores, los chokes y los MOSFET de primera categoría entregan sin esfuerzo cientos de vatios con un aviso de milisegundos. Una gran cantidad de características convenientes, que incluyen un switch de BIOS dual, modo 0dB, puertos FanConnect PWM y placa posterior de metal, hacen de este coloso de los fps una opción ideal para los constructores y DIY.",
+        "detalles":"ROG Strix Radeon™ RX 6700 XT OC Edition 12GB GDDR6 es un gigante de enfriamiento y rendimiento de energía.\n\nEL diseño de ventilador Axial-tech se ha mejorado con más aspas de ventilador y un nuevo esquema de rotación.\nEl diseño de 2.9 ranuras expande el área de la superficie de enfriamiento en comparación con la última generación para obtener más espacio para la cabeza térmica que nunca.\nSuper Alloy Power II incluye chokes de aleación de primera calidad, condensadores de polímero sólido y una serie de fases de poder de alta corriente.\nEl disipador de calor MaxContact permite 2 veces más contacto con el chip GPU para mejorar la transferencia térmica.\nUn marco reforzado evita la torsión excesiva y la flexión lateral de la placa de circuito impreso.\nFanConnect II equipa un puerto de ventilador con control híbrido para un enfriamiento óptimo del sistema.\nUna placa posterior ventilada evita que el aire caliente recircule a través de la matriz de enfriamiento.",
         "imgFolder":"../../../img/gaming/tarjetas/",
         "imgURL":"ASUS_ROG_STRIX_RADEON_RX6700_12GB/",
         "img1":"img1.jpg",
@@ -174,10 +175,10 @@
       },{
         "subcategoria": "tarjetas",
         "nombre": "ASUS ROG STRIX GEFORCE RTX 4090 24GB",
-        "precio":"Q ",
-        "precio_anterior":"Q ",
-        "descripcion":"",
-        "detalles":"",
+        "precio":"Q 19,927.00",
+        "precio_anterior":"Q 19,130.00",
+        "descripcion":"La ROG Strix GeForce RTX® 4090 le da un significado completamente nuevo a ir con la corriente. Por dentro y por fuera, cada elemento de la tarjeta le da a la monstruosa GPU espacio para respirar libremente y lograr el máximo rendimiento.",
+        "detalles":"Multiprocesadores de streaming NVIDIA Ada Lovelace: Hasta el doble de rendimiento y eficiencia energética.\nTensor Cores de 4.ª generación: Hasta el doble de rendimiento de la IA.\nRT Cores de 3.ª generación: Hasta el doble de rendimiento en Ray tracing\nVentiladores Axial-tech Ampliados para un 23% más de flujo de aire.\nNueva cámara de vapor patentada con disipador de calor fresado para temperaturas GPU más bajas.\nDiseño de 3.5 ranuras: Conjunto de aletas masivas optimizadas para el flujo de aire de los tres ventiladores Axial-tech.\nLa cubierta, el marco y la placa posterior fundidos a presión agregan rigidez y están ventilados para maximizar aún más el flujo de aire y la disipación de calor.\nControl de potencia digital con fases de poder de alta corriente y condensadores de 15K para impulsar el máximo rendimiento.\nAuto-Extreme fabricación automatizada de precisión para una mayor confiabilidad.\nEl software GPU Tweak III proporciona ajustes de rendimiento intuitivos, controles térmicos y supervisión del sistema.",
         "imgFolder":"../../../img/gaming/tarjetas/",
         "imgURL":"ASUS_ROG_STRIX_GEFORCE_RTX_4090_24GB/",
         "img1":"img1.jpg",
