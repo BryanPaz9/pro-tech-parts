@@ -122,7 +122,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "teclados",
-        "nombre": "RAZER HUNTSMAN MINI BLANCO",
+        "nombre": "HUNTSMAN MINI BLANCO",
         "precio":"Q 960.00",
         "precio_anterior":"Q 1,000.00",
         "descripcion":"Ingrese a una nueva dimensión mortal con el Razer Huntsman Mini, un teclado para juegos al 60 % con interruptores ópticos Razer de última generación. Altamente portátil e ideal para configuraciones simplificadas, es hora de experimentar una actuación ultrarrápida en nuestro factor de forma más compacto hasta el momento.",
@@ -210,7 +210,7 @@
         "img3":"img3.png"
       },{
         "subcategoria": "mouses",
-        "nombre": "LOGITECH G PRO X SUPERLIGHT 25400",
+        "nombre": "LOGITECH G PRO X SUPERLIGHT",
         "precio":"Q 1,219.00",
         "precio_anterior":"Q 1,170.00",
         "descripcion":"Hecho por y para jugadores profesionales: Diseñado con los principales profesionales de deportes electrónicos; diseñado para ganar; la búsqueda del mayor nivel de rendimiento es nuestro objetivo.",
@@ -258,7 +258,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "motherboards",
-        "nombre": "ASUS_ROG_MAXIMUS_Z690_HERO_WIFI",
+        "nombre": "ASUS ROG MAXIMUS Z690 HERO WIFI",
         "precio":"Q 5,693.00",
         "precio_anterior":"Q 5,465.00",
         "descripcion":"El ROG Maximus Z690 Hero es una hebra por excelencia del ADN de Republic of Gamers, repleto de componentes de alto octanaje para satisfacer a los usuarios que buscan una introducción a la línea Maximus de grado entusiasta.\nSu arsenal de refrigeración, suministro de energía y conectividad está listo para manejar cualquier cosa que le arrojen los últimos procesadores Intel® Core™ de 12.ª generación.\nY con su nueva pantalla de iluminación Polymo animada en la cubierta de E/S que deslumbra con logotipos y patrones RGB vibrantes, el ROG Maximus Z690 Hero tiene el aspecto que combina con su apalancamiento.",
@@ -312,7 +312,7 @@
         "descripcion":"Monitor gamer IPS rápido FHD (1920 x 1080) de 24.5 pulgadas con frecuencia de actualización de 360 Hz diseñado para jugadores profesionales de esports.\nNVIDIA® G-SYNC® - El procesador proporciona juegos fluidos y sin interrupciones a frecuencias de actualización de hasta 360 Hz.\nNVIDIA® Reflex Latency Analyzer - Brinda a los jugadores competitivos una medición precisa de la latencia del sistema por primera vez.\nLa tecnología ASUS Fast IPS permite un tiempo de respuesta (GTG) de 1 ms para imágenes de juego nítidas con altas velocidades de cuadros.\nIncluye un kit de montaje de escritorio ROG que se puede sujetar al borde de la mayoría de las superficies de trabajo planas.",
         "detalles":"Especificaciones \n\nPantalla\nTamaño del panel (pulgadas): 24.5.\nRelación de aspecto: 16:9.\nTipo de panel: IPS rápido.\nResolución verdadera: 1920 x 1080.\nÁrea de visualización de la pantalla (HxV): 543.168 x 302.616 mm.\nSuperficie de visualización: Antideslumbrante.\nTamaño de píxel: 0,2830 mm.\nBrillo (típ.): 400cd/?.\nBrillo (HDR, pico): 400 cd /?.\nRelación de contraste (típ.): 1000:1.\nÁngulo de visión (CR≧10): 178°/ 178°.\nTiempo de respuesta: 1 ms (GTG).\nColores de visualización: 16,7 millones.\nSin destellos: Sí.\nCompatibilidad con HDR (alto rango dinámico): HDR10.\nFrecuencia de actualización (máx.): 360Hz.\nCaracterística de video\nGame Plus: Sí.\nLuz azul baja: Sí.\nCompatibilidad con HDCP: Sí, 2.2.\nImágenes del juego: Sí.\nTecnología VRR: G- SYNC®.\nPuertos E/S\nDisplayPort 1.4 x 1.\nHDMI (v2.0) x 1.\nPuero de audífonos: Sí.\nPuertos USB: 2 x USB 3.2 Gen 1 Tipo-A.\nConector USB AB.\nPuerto de alimentación.\nCaracterísticas de audio\nSpeaker: No.\nConsumo energético\nEl consumo de energía: <27W.\nModo de ahorro de energía: <0.5W.\nModo de apagado: <0.5W.\nVoltaje: 100-240 V, 50/60 Hz.\nDiseño mecánico\nInclinación: Sí (+20° ~ -5°).\nGiratorio: Sí (+25° ~ -25°).\nPivote: Sí (0° ~ 90° en el sentido de las agujas del reloj).\nAjuste de altura: 0~120 mm.\nMontaje en pared VESA: 100 x 100mm.\nEfecto de iluminación (Aura): sincronización de aura.\nCerradura Kensington: Sí.\nDimensiones aproximadas\nDimensión con soporte (ancho x alto x profundidad): 557 × (379~499) × 247 mm.\nDimensión sin soporte (ancho x alto x profundidad): 557 x 330 x 88mm.\nDimensiones de la caja (ancho x alto x profundidad): 688 x 256 x 538 mm.\nPeso aproximado\nPeso neto con soporte: 7,1 kg.\nPeso neto sin soporte: 3,6 kg.\nPeso bruto: 13,3 kg.\nCumplimiento y normas\nTÜV sin parpadeo.\nLuz azul baja TÜV.\nG-SYNC.",
         "imgFolder":"../../../img/gaming/monitores/",
-        "imgURL":"ASUS ROG SWIFT PG259QNR/",
+        "imgURL":"ASUS_ROG_SWIFT_PG259QNR/",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -342,7 +342,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "memorias",
-        "nombre": "KINGSTON_FURY_RENEGADE_DDR4_8GB_3600MHZ",
+        "nombre": "KINGSTON FURY RENEGADE DDR4 8GB 3600MHZ",
         "precio":"Q 375.00",
         "precio_anterior":"Q 360.00",
         "descripcion":"La Kingston FURY™ Renegade DDR4 RGB ultrarrápida es la actualización de memoria perfecta para el jugador que desea el más elevado rendimiento y un toque de elegancia en su sistema basado en AMD o Intel.\nLos dinámicos efectos luminosos utilizan la patentada Tecnología de sincronización infrarroja™ de Kingston FURY, que genera sofisticados patrones luminosos sincronizados.\nEl elegante módulo con disipador térmico y PCB negra a juego le permitirán evitar recalentamientos y sembrar de terror el ánimo de sus enemigos.\nSe presenta en módulo individual de 8 GB.\nLos módulos Renegade RGB DDR4 tienen certificación XMP de Intel® y perfiles optimizados para los conjuntos de chips de Intel más recientes.\nSolamente tiene que seleccionar el perfil configurado en su BIOS, ¡y ya está! Comprobados exhaustivamente en fábrica a las velocidades publicadas, y están respaldados por una garantía vitalicia y más de 30 años de especialización, los fiables módulos Renegade RGB DDR4 le ofrecen un excelente rendimiento, una estética atractiva y la máxima tranquilidad.",
@@ -354,7 +354,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "memorias",
-        "nombre": "MUSHKIN DDR4 8GB 3600MHZ",
+        "nombre": "MUSHKIN DDR4 8GB 3600MHZ RGB",
         "precio":"Q 286.00",
         "precio_anterior":"Q 275.00",
         "descripcion":"Frecuencia Compatible\nEste producto está diseñado para funcionar a la frecuencia óptima para la compatibilidad con su sistema.\n\nTiempos Compatibles\nEste producto está programado para usar tiempos que ofrecen la máxima compatibilidad con su sistema y la memoria original.\n\nINSTALACIÓN DEL MÓDULO DE MEMORIA\nLa instalación de módulos de memoria es un proceso rápido y fácil. No importa el tipo de memoria o computadora, esta guía de instalación lo ayudará a poner en funcionamiento su nueva memoria mejorada Mushkin.",

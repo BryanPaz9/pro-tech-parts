@@ -14,6 +14,7 @@ function getGaming(){
     fetch('../categorias/gaming/gaming.json')
     .then(response => response.json())
     .then(data => {
+        console.log(data);
         data.gaming.forEach(e => {
             nombre_producto = e.nombre;
             subcategoria = e.subcategoria;
@@ -52,19 +53,46 @@ function getGaming(){
     })
 }
 
-// 'use strict'
-// function getGaming(){
-//     let products = document.getElementById('products');
-//     let product;
-//     fetch('../categorias/gaming/gaming.json')
-//     .then(response => response.json())
-//     .then(data => {
-//       data.forEach(e => {
-//         product = e.img1;
-        
-//         products.innerHTML = `<li>${}</li>`;
-//       });
-//       console.log(data);
-//     });
-
-// }
+function otros(){
+    let otros = document.getElementById('otros');
+    let img1 = '';
+    let imgURL = '';
+    let nombre_producto = '';
+    let subcategoria = '';
+    let precio = '';
+    let precio_anterior = '';
+    let html = '<h3 class="aside-title">Otros productos</h3>';
+    let item = '';
+    let componentes = '';
+    let otros_aleatorios = [];
+    fetch('../categorias/componentes/componentes.json')
+    .then(response => response.json())
+    .then(data=>{
+        console.log(data);
+        componentes = data.componentes;
+        while(otros_aleatorios.length<5){
+            const indice_aleatorio = Math.floor(Math.random()* componentes.length);
+            otros_aleatorios.push(componentes[indice_aleatorio]);
+        }
+        otros_aleatorios.forEach(e=>{
+            img1 = e.img1;
+            imgURL = e.imgURL;
+            nombre_producto = e.nombre;
+            subcategoria = e.subcategoria;
+            precio = e.precio;
+            precio_anterior = e.precio_anterior;
+            item = `<div class="product-widget">
+            <div class="product-img">
+                <img src="./img/componentes/${subcategoria}/${imgURL}/${img1}" alt="">
+            </div>
+            <div class="product-body">
+                <p class="product-category">${subcategoria}</p>
+                <h3 class="product-name"><a href="#">${nombre_producto}</a></h3>
+                <h4 class="product-price">${precio}<del class="product-old-price">${precio_anterior}</del></h4>
+            </div>
+        </div>`
+            html+=item;
+        })
+        otros.innerHTML = html;
+    })
+}
