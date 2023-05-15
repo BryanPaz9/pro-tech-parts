@@ -27,7 +27,12 @@
 
  		<!-- Custom stlylesheet -->
  		<link type="text/css" rel="stylesheet" href="css/style.css"/>
-
+		 <script src="js/products.js"></script>
+		<script>
+			window.onload = function(){
+				setTimeout(getGaming,400);
+			}
+		</script>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -429,33 +434,10 @@
 					<!-- STORE -->
 					<div id="store" class="col-md-9">
 						<!-- store top filter -->
-						<div class="store-filter clearfix">
-							<div class="store-sort">
-								<label>
-									Ordenar por:
-									<select class="input-select">
-										<option value="0">Precio</option>
-										<option value="1">Popular</option>
-									</select>
-								</label>
-
-								<label>
-									Ver:
-									<select class="input-select">
-										<option value="0">20</option>
-										<option value="1">50</option>
-									</select>
-								</label>
-							</div>
-							<ul class="store-grid">
-								<li class="active"><i class="fa fa-th"></i></li>
-								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
-							</ul>
-						</div>
 						<!-- /store top filter -->
 
 						<!-- store products -->
-						<div class="row">
+						<div class="row" id="products">
 							<!-- product -->
 							<div class="col-md-4 col-xs-6">
 								<div class="product">
@@ -722,7 +704,7 @@
 
 						<!-- store bottom filter -->
 						<div class="store-filter clearfix">
-							<span class="store-qty">Mostrando 20-100 products</span>
+							<span class="store-qty">Mostrando xxx productos</span>
 							<ul class="store-pagination">
 								<li class="active">1</li>
 								<li><a href="#">2</a></li>
