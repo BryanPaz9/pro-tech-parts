@@ -11,7 +11,7 @@ function getAccesorios(){
     let html ='<div class="row" id="products">';
 
     let enddiv = '</div>';
-    fetch('../categorias/accesorios/accesorios.json')
+    fetch('../js/accesorios.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -65,7 +65,7 @@ function otros(){
     let item = '';
     let gaming = '';
     let otros_aleatorios = [];
-    fetch('../categorias/gaming/gaming.json')
+    fetch('../js/gaming.json')
     .then(response => response.json())
     .then(data=>{
         console.log(data);
