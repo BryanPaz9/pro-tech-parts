@@ -15,7 +15,7 @@
       },
       {
         "subcategoria": "cables",
-        "nombre": "322782 CABLE HDMI MACHO A DVI-D",
+        "nombre": "CABLE HDMI MACHO A DVI-D",
         "precio":"Q 40.00",
         "precio_anterior":"Q 42.00",
         "descripcion":"El cable HDMI a DVI-D de Manhattan ofrece los colores más brillantes y precisos y los detalles más nítidos al conectar un televisor de alta definición, una pantalla LCD o de plasma, un receptor de satélite digital, un reproductor de DVD, un proyector digital u otros dispositivos de visualización equipados con DVI o HDMI.",
@@ -28,7 +28,7 @@
       },
       {
         "subcategoria": "cables",
-        "nombre": "342766 CABLE DE MOLEX A SATA",
+        "nombre": "CABLE DE MOLEX A SATA",
         "precio":"Q 21.00",
         "precio_anterior":"Q 22.00",
         "descripcion":"Los Cables de Alimentación SATA, Adaptadores y Splitters conectan con facilidad y extienden el alcance entre una fuente de alimentación y cualquier componente interno. Ideales para sistemas nuevos, reemplazos y actualizaciones. MANHATTAN ofrece una amplia variedad de soluciones de conectividad en varias configuraciones, todas ellas diseñadas con materiales de calidad para entregar y mantener la distribución de la energía de manera confiable. Presentando forros durables y construcciones robustas, Los Cables de Alimentación SATA MANHATTAN, Adaptadores y Splitters entregan un máximo de conductividad eléctrica para transmitir alimentación de manera segura cuando y donde se necesite.",
@@ -41,7 +41,7 @@
       },
       {
         "subcategoria": "cables",
-        "nombre": "XTC-120 CABLE DE ALIMENTACION",
+        "nombre": "CABLE DE ALIMENTACION",
         "precio":"Q 26.00",
         "precio_anterior":"Q 30.00",
         "descripcion":"Cable de alimentación para laptop con enchufe NEMA de 3 clavijas a conector hembra de 3 ranuras.",
@@ -54,7 +54,7 @@
       },
       {
         "subcategoria": "cases",
-        "nombre": "VSK4000E-U3 DE ACERO SIN FUENTE",
+        "nombre": "CASE DE ACERO SIN FUENTE",
         "precio":"Q 765.00",
         "precio_anterior":"Q 797.00",
         "descripcion":"El VSK4000E-U3 también cumple con las pautas de Thermally Advantage Chasis (TAC) 2.0 y está actualizado con dos puertos USB 3.0, nueve bahías para unidades y siete ranuras de expansión.La construcción de un sistema comienza con la compra de una caja, luego vienen las piezas que lo componen, cuyo costo puede aumentar muy rápidamente.El VSK4000E-U3 está aquí para proporcionar la plataforma básica para comenzar a construir su propio sistema.Su diseño humilde y su funcionalidad práctica contienen los fundamentos para un chasis de alto rendimiento.La línea VSK está diseñada para ser un trampolín para quienes deseen actualizar su sistema más adelante.Cada chasis sirve devotamente a su propósito como una parte rentable e inolvidable de la experiencia de construcción de su sistema.",
@@ -157,7 +157,7 @@
       },
       {
         "subcategoria": "fuentes",
-        "nombre": "FUENTE 700WATTS 260 WATTS REALES",
+        "nombre": "700WATTS 260 WATTS REALES",
         "precio":"Q 235.00",
         "precio_anterior":"Q 245.00",
         "descripcion":"Fuente de alimentación de 700W con 2 conectores SATA",
