@@ -50,7 +50,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "cables",
-        "nombre": "ASUS USB A BLUETOOTH 5.0",
+        "nombre": "ADAPTADOR ASUS USB A BLUETOOTH 5.0",
         "precio":"Q 190.00",
         "precio_anterior":"Q 198.00",
         "descripcion":"Bluetooth 5.0 para una mayor cobertura más rápida: transfiera datos hasta el doble de rápido que antes, y con 4 veces el alcance en BLE.\nConexión inalámbrica, sin limitaciones: permite la comunicación inalámbrica con dispositivos habilitados para Bluetooth.\nCompatibilidad total - Compatible con versiones anteriores de Bluetooth®2.1/3.x/4.x.\nAhorro de energía para dispositivos: tecnología Bluetooth Low Energy para conectividad inalámbrica que ahorra energía.\nDiseño ultra pequeño: altamente portátil y fácil de usar.",
@@ -110,7 +110,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "mantenimiento",
-        "nombre": "ESPUMA MULTISURFACE PARA LIMPIAR SUPERFICIE",
+        "nombre": "ESPUMA PARA SUPERFICIE",
         "precio":"Q 45.00",
         "precio_anterior":"Q 47.00",
         "descripcion":"Espuma limpiadora de exteriores. Agite antes del uso, utilice en cualquier posición con el equipo apagado. Producto de uso externo. Aplíquelo únicamente con SABO WIPES. Multisurface Cleaner es un producto formulado para utilizarse en las partes externas del equipo electrónico y eléctrico o cualquier otra superficie en general. Su avanzada fórmula permitirá recobrar el aspecto original de dicho equipo removiendo suciedades superficiales que afectan la estética visual del mismo. Este producto de utilizarse después del trabajo de SABO REMOVER. Aplique Sabo Multisurface Cleaner directamente a las superficies siempre y cuando no tengan accesos a las partes eléctricas de los equipos, de lo contrario aplícelo directamente al WIPE SABO y luego al equipo, remueva cualquier residuo líquido soplándolo SABO DUSTER. Aplique directamente a las pantallas en general, si las pantallas son cristal liquido, aplique al SABO WIPE primero y luego realice su limpieza. Dicha limpieza acabará con la estática por un término de 48 horas.",
@@ -146,7 +146,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "mantenimiento",
-        "nombre": "COMBO LIMPIEZA EXTERNA PLUS",
+        "nombre": "COMBO LIMPIEZA EXTERNA",
         "precio":"Q 135.00",
         "precio_anterior":"Q 141.00",
         "descripcion":"Aire comprimido, Espuma limpia superficies, Removedor y Silicone abrillantador en un solo kit.",
@@ -206,7 +206,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "muebles",
-        "nombre": "ESCRITORIO PARA COMPUTADORA",
+        "nombre": "ESCRITORIO ERGONÓMICO",
         "precio":"Q 1,125.00",
         "precio_anterior":"Q 1,172.00",
         "descripcion":"Diseñado con especificaciones espectaculares para el jugador extremo y entusiasta. Diseñado con un fuerte estilo K-Frame y una gran estación de trabajo resistente al desgaste de 47 pulgadas con acabado superior de fibra de carbono. Equipado con organizador de cables, portavasos, soporte para controlador y gancho para auriculares para mantener una estación de juego organizada y estar siempre listo para la próxima batalla.",
@@ -218,7 +218,7 @@
         "img3":"img3.jpeg"
       },{
         "subcategoria": "muebles",
-        "nombre": "PRIMUS PARA GAMERS THRONOS 200S",
+        "nombre": "PRIMUS THRONOS 200S",
         "precio":"Q 3,165.00",
         "precio_anterior":"Q 3,297.00",
         "descripcion":"El sello inconfundible de campeones. Comodidad ergonómica al extremo: respaldo alto con cojín lumbar y almohada removibles. Construcción robusta, cuerina de primera calidad y materiales resistentes garantizan máxima estabilidad y durabilidad",
