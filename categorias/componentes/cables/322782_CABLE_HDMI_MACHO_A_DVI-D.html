@@ -37,7 +37,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = '322782_CABLE_HDMI_MACHO_A_DVI-D/';
 				//Obtener info del producto en el json.
-				fetch('../../componentes/componentes.json')
+				fetch('../../../js/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;

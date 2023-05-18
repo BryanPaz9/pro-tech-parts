@@ -38,7 +38,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = 'DDR4_4GB_2666MHZ_CL19/';
 				//Obtener info del producto en el json.
-				fetch('../../componentes/componentes.json')
+				fetch('../../../js/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;

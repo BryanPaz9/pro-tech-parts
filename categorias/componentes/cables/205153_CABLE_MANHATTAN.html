@@ -38,7 +38,8 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = '205153_CABLE_MANHATTAN/';
 				//Obtener info del producto en el json.
-				fetch('../../componentes/componentes.json')
+				//fetch('../../../js/componentes.json')
+				fetch('../../../js/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;

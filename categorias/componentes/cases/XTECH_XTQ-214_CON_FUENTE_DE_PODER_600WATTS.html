@@ -38,7 +38,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = 'XTECH_XTQ-214_CON_FUENTE_DE_PODER_600WATTS/';
 				//Obtener info del producto en el json.
-				fetch('../../componentes/componentes.json')
+				fetch('../../../js/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;

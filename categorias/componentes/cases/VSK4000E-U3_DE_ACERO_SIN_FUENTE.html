@@ -38,7 +38,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = 'VSK4000E-U3_DE_ACERO_SIN_FUENTE/';
 				//Obtener info del producto en el json.
-				fetch('../../componentes/componentes.json')
+				fetch('../../../js/componentes.json')
 				.then(response=>response.json())
 				.then(data=>{
 					componentes = data.componentes;
