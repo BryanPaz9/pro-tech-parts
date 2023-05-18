@@ -27,9 +27,11 @@
 
  		<!-- Custom stlylesheet -->
  		<link type="text/css" rel="stylesheet" href="../../../css/style.css"/>
+		<script src="../../../js/componentes.js"></script>
 		 <script>
 			window.onload = function(){
-				setTimeout(carga_contenido,400)
+				setTimeout(carga_contenido,400);
+				setTimeout(relacionados,200);
 			}
 			
 			function carga_contenido(){
@@ -38,7 +40,7 @@
 				//constante del producto *SOLO LA VARIABLE urlproduct se cambia en cada .html*
 				const urlproduct = 'HEADSET_CON_MICROFONO_AJUSTABLE/';
 				//Obtener info del producto en el json.
-				fetch('../../accesorios/accesorios.json')
+				fetch('../../../js/accesorios.json')
 				.then(response=>response.json())
 				.then(data=>{
 					accesorios = data.accesorios;
@@ -408,7 +410,7 @@
 			<!-- container -->
 			<div class="container">
 				<!-- row -->
-				<div class="row">
+				<div class="row" id ="relacionados">
 
 					<div class="col-md-12">
 						<div class="section-title text-center">

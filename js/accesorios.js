@@ -32,7 +32,7 @@ function getAccesorios(){
                 </div>
                 <div class="product-body">
                     <p class="product-category">${subcategoria}</p>
-                    <h3 class="product-name"><a href="#">${nombre_producto}</a></h3>
+                    <h3 class="product-name"><a href="./categorias/accesorios/${subcategoria}/${pageURL}">${nombre_producto}</a></h3>
                     <h4 class="product-price">${precio} <del class="product-old-price">${precio_anterior}</del></h4>
                     <div class="product-btns">
                         <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
@@ -64,6 +64,7 @@ function otros(){
     let html = '<h3 class="aside-title">Otros productos</h3>';
     let item = '';
     let gaming = '';
+    let pageURL = '';
     let otros_aleatorios = [];
     fetch('../js/gaming.json')
     .then(response => response.json())
@@ -81,13 +82,14 @@ function otros(){
             subcategoria = e.subcategoria;
             precio = e.precio;
             precio_anterior = e.precio_anterior;
+            pageURL =e.pageURL;
             item = `<div class="product-widget">
             <div class="product-img">
                 <img src="./img/gaming/${subcategoria}/${imgURL}/${img1}" alt="">
             </div>
             <div class="product-body">
                 <p class="product-category">${subcategoria}</p>
-                <h3 class="product-name"><a href="#">${nombre_producto}</a></h3>
+                <h3 class="product-name"><a href="./categorias/gaming/${subcategoria}/${pageURL}">${nombre_producto}</a></h3>
                 <h4 class="product-price">${precio}<del class="product-old-price">${precio_anterior}</del></h4>
             </div>
         </div>`

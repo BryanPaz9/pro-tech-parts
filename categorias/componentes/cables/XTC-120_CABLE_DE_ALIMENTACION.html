@@ -27,9 +27,11 @@
 
  		<!-- Custom stlylesheet -->
  		<link type="text/css" rel="stylesheet" href="../../../css/style.css"/>
+		<script src="../../../js/componentes.js"></script>
 		 <script>
 			window.onload = function(){
-				setTimeout(carga_contenido,400)
+				setTimeout(carga_contenido,400);
+				setTimeout(relacionados,200);
 			}
 			function carga_contenido(){
 			    let componentes = [{}];
@@ -408,116 +410,15 @@
 			<!-- container -->
 			<div class="container">
 				<!-- row -->
-				<div class="row">
+<div class="row" id="relacionados">
 
-					<div class="col-md-12">
-						<div class="section-title text-center">
-							<h3 class="title">Productos relacionados</h3>
-						</div>
-					</div>
+    <div class="col-md-12">
+        <div class="section-title text-center">
+            <h3 class="title">Productos relacionados</h3>
+        </div>
+    </div>
 
-					<!-- product -->
-					<div class="col-md-3 col-xs-6">
-						<div class="product">
-							<div class="product-img">
-								<img src="../../../img/product01.png" alt="">
-								<div class="product-label">
-									<span class="sale">-30%</span>
-								</div>
-							</div>
-							<div class="product-body">
-								<p class="product-category">Categoría</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
-								<h4 class="product-price">Q980.00 <del class="product-old-price">Q990.00</del></h4>
-								<div class="product-btns">
-									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
-									
-									<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">vista rápida</span></button>
-								</div>
-							</div>
-							<div class="add-to-cart">
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> lo quiero</button>
-							</div>
-						</div>
-					</div>
-					<!-- /product -->
-
-					<!-- product -->
-					<div class="col-md-3 col-xs-6">
-						<div class="product">
-							<div class="product-img">
-								<img src="../../../img/product02.png" alt="">
-								<div class="product-label">
-									<span class="new">NUEVO</span>
-								</div>
-							</div>
-							<div class="product-body">
-								<p class="product-category">Categoría</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
-								<h4 class="product-price">Q980.00 <del class="product-old-price">Q990.00</del></h4>
-								<div class="product-btns">
-									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
-									
-									<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">vista rápida</span></button>
-								</div>
-							</div>
-							<div class="add-to-cart">
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> lo quiero</button>
-							</div>
-						</div>
-					</div>
-					<!-- /product -->
-
-					<div class="clearfix visible-sm visible-xs"></div>
-
-					<!-- product -->
-					<div class="col-md-3 col-xs-6">
-						<div class="product">
-							<div class="product-img">
-								<img src="../../../img/product03.png" alt="">
-							</div>
-							<div class="product-body">
-								<p class="product-category">Categoría</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
-								<h4 class="product-price">Q980.00 <del class="product-old-price">Q990.00</del></h4>
-								
-								<div class="product-btns">
-									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
-									
-									<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">vista rápida</span></button>
-								</div>
-							</div>
-							<div class="add-to-cart">
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> lo quiero</button>
-							</div>
-						</div>
-					</div>
-					<!-- /product -->
-
-					<!-- product -->
-					<div class="col-md-3 col-xs-6">
-						<div class="product">
-							<div class="product-img">
-								<img src="../../../img/product04.png" alt="">
-							</div>
-							<div class="product-body">
-								<p class="product-category">Categoría</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
-								<h4 class="product-price">Q980.00 <del class="product-old-price">Q990.00</del></h4>
-								<div class="product-btns">
-									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
-									
-									<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">vista rápida</span></button>
-								</div>
-							</div>
-							<div class="add-to-cart">
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> lo quiero</button>
-							</div>
-						</div>
-					</div>
-					<!-- /product -->
-
-				</div>
+</div>
 				<!-- /row -->
 			</div>
 			<!-- /container -->

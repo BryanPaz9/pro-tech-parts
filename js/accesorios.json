@@ -9,6 +9,7 @@
         "detalles":"Tipo: Sistema de parlantes de 2.1 canales\nMáxima potencia de salida (RMS): 12W\nEntrada de CA/CC: USB 5VCC\nParlante\n\nUnidad del parlante: 2.0in\nMáxima potencia de salida (RMS): 3W cada uno\nFrecuencia: 120-20kHz\nImpedancia: 4Ω\nSensibilidad: 83dB\nRelación de señal a ruido: 65dB\nSubwoofer\n\nUnidad del parlante: 76.2mm\nMáxima potencia de salida (RMS): 6 watts\nFrecuencia: 120-20kHz\nImpedancia: 4Ω\nSensibilidad: 83dB\nRelación de señal a ruido: 65dB\nConectividad\n\nTipo de conexión: Entrada de audio: auxiliar de 3,5mm, Puerto USB, Ranura para microtarjeta SD™, Salida de audio: 3,5mm\nInformación adicional\n\nDimensiones: Subwoofer: 11x12,5x15,5cm, Satélites: 6,5x 6,5x7,8cm\nColor: Disponibles en Blanco y Negro\nPeso: 830g\nLongitud del cable: 1m",
         "imgFolder":"../../../img/accesorios/audio/",
         "imgURL":"XTECH_XTS-375BK_CON_SUBWOOFER/",
+        "pageURL":"XTECH_XTS-375BK_CON_SUBWOOFER.html",
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
@@ -21,6 +22,7 @@
         "detalles":"Especificaciones \n\nAudífonos: . Respuesta de frecuencia: 20 Hz - 20 kHz . Impedancia: 32 Ohm . Sensibilidad: 108 dB S.P.L a 1 kHz\n\nConector de entrada: 3.5 mm conector estéreo\n\nLargo del cable: 2,5 m\n\nMicrófono:\n\nTipo: Condensador Omni-Direccional\n\nRespuesta de frecuencia: 30 Hz – 16 kHz\n\nImpedancia: 600 Ohm\n\nSensibilidad: -58 dB ± 3 dB\n\n\nConexión de salida: Conector de 3.5 mm",
         "imgFolder":"../../../img/accesorios/audio/",
         "imgURL":"HEADSET_CON_MICROFONO_AJUSTABLE/",
+        "pageURL":"HEADSET_CON_MICROFONO_AJUSTABLE.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -33,6 +35,7 @@
         "detalles":"CARACTERÍSTICAS COMPLETAS\nPatrón de captación cardioide para capturar voces, música, podcasts, juegos y más.\nIncluye soporte de escritorio para trípode y cable USB\nPlug and play con Mac y PC\nDisponible en blanco y negro\nESPECIFICACIONES TÉCNICAS\nTipo de transductor: condensador, gradiente de presión con salida digital USB\nPatrones polares: cardioide\nRespuesta de frecuencia: 40 –18 kHz\nMuestra / tasa de palabras: 44,1 kHz / 16 bit\nPeso: 460g\nDimensiones: 325 mm (circunferencia)\nREQUISITOS DEL SISTEMA\nWindows\nWindows 7, 8.1 o 10\nUSB 1.1 / 2.0 / 3.0\nMACINTOSH\nmacOS 10.10 o superior\nUSB 1.1 / 2.0 / 3.0",
         "imgFolder":"../../../img/accesorios/audio/",
         "imgURL":"MICROFONO_BLUE_MODEL_SNOWBALL_ICE_USB/",
+        "pageURL":"MICROFONO_BLUE_MODEL_SNOWBALL_ICE_USB.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -45,6 +48,7 @@
         "detalles":"Especificaciones\nEstándares y certificaciones\nUL 20276\nCE\nFCC\nRoHS\nWEEE\nConexiones\nDisplayPort macho de 20 pines\nVGA HD15 hembra\nConectores con baño de oro\nMoldeado en PVC\nAlivio de tensión integrado\nGeneral\nResolución VGA: hasta 1920 x 1080p\nFrecuencia: 154 MHz / 144 MHz (60 Hz)\nActivo\nCaracterísticas físicas\nLargo: 15 cm (6 in.)\nCalibre del cable 32 AWG\nPeso: 55 g (1.9 oz.)\nBlindado\nRequerimientos del sistema\nWindows XP/Vista/7/8/8.1/10 o Linux o Mac 9.x/10.x o más recientes\nContenido del empaque\nCable Convertidor DisplayPort a VGA.",
         "imgFolder":"../../../img/accesorios/cables/",
         "imgURL":"CONVERTIDOR_DE_DISPLAY_PORT_A_VGA/",
+        "pageURL":"CONVERTIDOR_DE_DISPLAY_PORT_A_VGA.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -57,6 +61,7 @@
         "detalles":"Especificaciones\nNombre del modelo: USB-BT500.\nEstándar: Bluetooth 5.0+EDR y Bluetooth Smart (Bluetooth de baja energía).\nInterfaz: USB 2.0 tipo A.\nVelocidad de datos: Hasta 3 Mbps (BT-BR/EDR clásico); 2 Mbps (BLE).\nDistancia de uso: Hasta 10 metros (clásico BT-BR/EDR); hasta 40 metros (BLE) en espacios abiertos.\nBanda de frecuencia: 2402~2480 megaciclo.\nEspectro: FHSS (espectro ensanchado por salto de frecuencia).\nModulación: GFSK para 1M/2Mbps, π/4-DQPSK para 2Mbps; 8-DPSK para 3Mbps.\nSoporte de sistema operativo: Windows 10, Linux.\nPeso del producto (g): 1.9.\nAlimentación de entrada: 5 V (vía puerto USB).\nDimensiones: 7.1 x 14.9 x 17.4 mm.\nContenido del paquete\nAdaptador USB Bluetooth 5.0.",
         "imgFolder":"../../../img/accesorios/cables/",
         "imgURL":"ASUS_USB_A_BLUETOOTH_5.0/",
+        "pageURL":"ASUS_USB_A_BLUETOOTH_5.0.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -69,6 +74,7 @@
         "detalles":"Especificaciones\nEstándares y certificaciones\nUSB 3.1.\nHDMI.\nHDCP 1.4.\nCE.\nFCC.\nRoHS2.\nWEEE.\nGeneral\nResolución de Vídeo: 640 x 480, 800 x 600, 1024 x 768, 1920 x 1200, 1080p, 3840 x 2160p at 30 Hz, 4K.\nPuertos USB-A: 5 Gbps.\nSoporta Tarjetas Falsh:SD / SDHC / SDXC / EXTREME SD / EXTREME II SD / EXTREME III SD / ULTRA SD / ULTRA II SD / ULTRA II SD P PLUS / SD-ULTRA-X / ULTRA SPEED SD / SD PRO / SD ELITE PRO / HS SD / MMC / MMC 4.0 / HS MMC / HS RS MMC / RS MMC / RS MMC 4.0 / MMC Móvil.\nSoporta Tarjetas Flash: SD, SDHC and SDXC; up to 128 GB.\nVelocidad de Transferencia: Hasta 90 Mbps.\nCalibrador del cable 24 AWG.\nAlimentado por bus.\nUSB-C PD Puerto de alimentación: 60 W (20 V a 3 A).\nUSB-A de carga 10 W (5 V a 2 A).\nUn puerto BC 1.2: 7.5 W (5 V a 1.5 A) Dos puertos compartidos: 5 W (5 V a 1 A).\nBlindaje de mylar y aluminio.\nTensión de resistencia: 300 V DC.\nResistencia de los aislantes: 10 MΩ.\nResistencia Conductiva: 5Ω.\nConexiones\nEntradas:\nUSB Tipo-C con 24-pines, macho.\nSalidas:\n1 entrada HDMI de 19-pines, Hembra.\n1 entrada Mini DisplayPort 20 pines, Hembra.\n1 entrada VGA de 15-pines, Hembra.\n1 entrada 10/100/1000 Mbps RJ45, Hembra.\n3 entradas USB Tipo-A 4 pines, Hembra.\n1 entrada para memorias SD.\n1 entrada para memoria Micro-SD.\n1 entrada estéreo 3.5mm, Hembra.\n1 entrada USB-C 24 pines, Entrega de energía, Hembra.\nDiseño\nChasís: 13.7 x 7.62 x 1.78 cm (5.4 x 3 x 0.7 pulgadas) aprox.\nLongitud del cable: 20 cm (7.87 pulgadas aprox.).\nPeso: 198 g.\nChasís: Aluminio.\nAmbiente de operación\nTemperatura de Operación:0 – 45°C (32 – 113°F).\nOperación de almacenamiento: -10 – 70°C (14 – 158°F).\nHumedad (sin condensar): 10 - 90%.\nRequerimientos del sistema\nWindows XP/Vista/7/8.1/10 or Linux or Mac 10.7.1 o superior.\nContenido del paquete\nConvertidor Docking USB Tipo-C.",
         "imgFolder":"../../../img/accesorios/cables/",
         "imgURL":"DOCKING_USB-C_7EN1_HDMI_MINI_DP_VGA/",
+        "pageURL":"DOCKING_USB-C_7EN1_HDMI_MINI_DP_VGA.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -81,6 +87,7 @@
         "detalles":"Características principales\n6 tanques de tinta de color.\nPantalla LCD de 2 líneas.\nConectividad inalámbrica.\nImpresión desde dispositivos móviles.\nTanques de tinta integrados.\nKit absorbedor de tinta fácil de reemplazar.\nEncendido y apagado automático.\nImpresión de fotos sin bordes.\nCapacidad de papel fotográfico.\nImpresión de pancartas.\nImpresiones normales a color: 8,000 aproximadamente. [1]\nImpresiones normales blanco y negro: 3,700 aproximadamente. [1]\nEspecificaciones\nVelocidad de impresión (hasta)\nNegro (ESAT/una cara): aprox. 3.9 ipm. [10]\nColor (ESAT/una cara): aprox. 3.9 ipm. [10]\nFotografía (4 x 6): aprox. 47 segundos.\nCantidad de boquillas\nIzquierda (BK/R/GY): 384 x 3.\nDerecha (C/M/Y): 384 x 3.\nTotal: 2,304.\nResolución de impresión (hasta): Hasta 4800 x 1200 ppp. [11]\nCompatibilidad de tinta\nTipo de tinta\nBotellas de tinta de color a base de tintes GI-13 (Cian, Magenta, Amarillo, Rojo, Gris, Negro).\nTamaños de papel\n3.5 pulgadas x 3.5 pulgadas (Cuadrado), 4 pulgadas x 6 pulgadas, 5 pulgadas x 5 pulgadas (Cuadrado), 5 pulgadas x 7 pulgadas, 7 pulgadas x 10 pulgadas, 8 pulgadas x 10 pulgadas, carta (8.5 pulgadas x 11 pulgadas), legal (8.5 pulgadas x 14 pulgadas), sobres (U.S. #10, DL, CS, Monarch), tamaño de tarjeta (91 mm x 55 mm).\nTamaño Personalizado: Anchura: de 2.2 pulgadas a 8.5 pulgadas/Longitud: 3.5 pulgadas x 47 pulgadas.\nCompatibilidad de papel\nComún: Papel común, papel de alta resolución de Canon.\nBrillante: Papel fotográfico brillante plus II, papel fotográfico brillante.\nSemibrillante: Papel fotográfico semibrillante, papel fotográfico pro luster.\nMate: Papel fotográfico mate, papel mate a dos caras; premium fine art rough.\nOtros (Canon): Papel fotográfico magnético, papel fotográfico adhesivo reutilizable, transferencia térmica.\nOtros fabricantes: Se pueden utilizar materiales gruesos, tarjetas de felicitación, sobres, papel reciclado y papel libre de cloro.\nMás características de la impresora\nMóviles, impresión sin bordes [9], impresión de tarjetas de presentación, impresión de tarjetas de felicitación, impresión de etiquetas, impresión de fotografías directa desde la cámara, compatibilidad con la impresión en materiales cuadrados y en papel mate a dos caras.\nAlto rendimiento de páginas: hasta 3,800 fotografías 4 pulgadas x 6 pulgadas1.\nManejo del papel\n100 hojas de papel común o 20 hojas 4 pulgadas x 6 pulgadas/10 hojas 5 pulgadas x 7 pulgadas.\nCopiadora\nCaracterísticas de copiado\nCopiado 4 en 1/2 en 1, copiado sin bordes [9], copiado de documentos, ajustar a página, copiado con borrado de marco (solo escáner plano), copiado de tarjeta de identificación, copiado de exposición automática, copiado múltiple (hasta 99 páginas), copiado de fotografías, porcentajes predeterminados de copiado, reducción/ampliación de copias (de 25% a 400%), copiado estándar.\nEscáner\nTipo de escáner: Escáner plano.\nElemento de escaneo: Sensor de Imagen por contacto (CIS).\nResolución máxima: Óptica: 600 x 1200 ppp (óptica) [12]\nCaracterísticas del escáner\nEscaneo de documentos, escaneo de fotografías, escaneo inalámbrico [5], escaneo hacia la aplicación Canon Print [8], escaneo de PDF de varias páginas, guardar en PC.\nProfundidad de color\nEscala de grises: 16 bits/8 bits.\nColor: 16 bits/8 bits por color.\nTamaño máximo del documento: 8.5 pulgadas x 11.7 pulgadas (A4/Carta).\nGeneral\nOtras características\nSistema de suministro de tinta continuo (CISS), activación/desactivación automática, alineación automática del cabezal de impresión, certificación Energy Star® [23], modo silencioso, wireless connect [4], conexión wireless direct, cabezal de impresión reemplazable por el usuario, cartucho de mantenimiento reemplazable por el usuario.\nPantalla: LCD monocromática de 2 líneas.\nCompatibilidad con asistentes inteligentes y la automatización: Amazon Alexa™ [14], Google Assistant™. [14]\nCompatibilidad con sistemas operativos\nWindows [15]: Windows® 10, Windows 8.1, Windows 7 SP1, Windows Server 2019/2016/2012 R2/2008 R2 SP1.\nMac:16 macOS v10.12.6 - 10.15 (Catalina)\nSistemas operativos para dispositivos móviles:17 iOS®, iPadOS, Android™\nInterfaz estándar\nHi-Speed USB.\nPictBridge inalámbrico. [13]\nWi-Fi® (red inalámbrica 802.11b/g/n, 2.4 GHz). [5]\nSoftware incluido\nSoftware (WINDOWS [15]/MAC [16]).\nSoftware controlador de la impresora fotográfica multifuncional e inalámbrica PIXMA G610, software Easy-PhotoPrint Editor [18], software PosterArtist Lite [22]\nAplicaciones para dispositivos móviles de impresión\nAirPrint® [6], Mopria® [7], aplicación Canon PRINT [8], aplicación Easy-PhotoPrint Editor [18], PIXMA Chat Print [19], PIXMA Cloud Link (para dispositivos móviles) [8], Canon Print Service (para Android™) [20], aplicación C.\nDimensiones aproximadas (An. x Pr. x Al.)\nCerrada: 17.2 pulgadas (An.) x 12.5 pulgadas (Pr.) x 5.8 pulgadas (Al.).\nCon papel: 17.2 pulgadas (An.) x 21.8 pulgadas (Pr.) x 8.4 pulgadas (Al.).\nPeso aproximado: 17.4 lb.",
         "imgFolder":"../../../img/accesorios/impresoras/",
         "imgURL":"CANON_G610_PARA_FOTOGRAFIA_WIFI/",
+        "pageURL":"CANON_G610_PARA_FOTOGRAFIA_WIFI.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -93,6 +100,7 @@
         "detalles":"Conectividad\nFunción Inalámbrica Integrada: Imprima y escanee de forma inalámbrica desde cualquier computadora habilitada con\nWi-Fi alrededor de la casa. \nAplicación Canon PRINT Inkjet/SELPHY (aplicación Canon PRINT): Imprima y escanee fotografías y documentos desde su dispositivo móvil mediante el uso de la aplicación gratuita Canon PRINT. \nGoogle Cloud Print: Imprima desde cualquier lugar donde se encuentre, con aplicaciones que usted utiliza a diario.",
         "imgFolder":"../../../img/accesorios/impresoras/",
         "imgURL":"CANON_G3110_NEG-5COL_IPM_WIFI/",
+        "pageURL":"CANON_G3110_NEG-5COL_IPM_WIFI.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -105,6 +113,7 @@
         "detalles":"Papel canon multiusos - tamaño carta de 75 gramos\nDale vida a tus impresiones con el papel canon, hecho para diferentes tareas, utilízalo en tu casa, oficina, universidad, etc.\nObtén resultados impresionantes.\nCaracterísticas\nPapel Canon multiusos.\nColor blanco.\nTamaño carta de 75 g. \nCantidad: 500 hojas.",
         "imgFolder":"../../../img/accesorios/impresoras/",
         "imgURL":"PAPEL_MULTIUSOS_COLOR_BLANCO_CARTA/",
+        "pageURL":"PAPEL_MULTIUSOS_COLOR_BLANCO_CARTA.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -117,6 +126,7 @@
         "detalles":"Características:\n590ml = 20 Oz.\nUtilícelo con el equipo apagado.\nUso Externo.Espuma limpiadora de exteriores que removerá manchas superficiales en las partes externas del equipo.\nUtilícelo siempre después del uso de SABO Remover.\nPuede usarse sobre las pantallas.\nUse únicamente con SABO Wipes.",
         "imgFolder":"../../../img/accesorios/mantenimiento/",
         "imgURL":"ESPUMA_MULTISURFACE_PARA_LIMPIAR_SUPERFICIE/",
+        "pageURL":"ESPUMA_MULTISURFACE_PARA_LIMPIAR_SUPERFICIE.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpg"
@@ -129,6 +139,7 @@
         "detalles":"Sabo Duster - 590ml Aire Comprimido para limpieza de Computadoras, Equipos eléctricos etc.\n590ml = 20 Oz.\nUtilícelo con el equipo apagado.\nUso Externo e Interno.\nSoplador envasado a 120 libras de presión para eliminar polvo y suciedades de los equipos eléctricos y electrónicos",
         "imgFolder":"../../../img/accesorios/mantenimiento/",
         "imgURL":"SABO_AIRE_COMPRIMIDO/",
+        "pageURL":"SABO_AIRE_COMPRIMIDO.html",
         "img1":"img1.jpeg",
         "img2":"img2.png",
         "img3":"img3.png"
@@ -141,6 +152,7 @@
         "detalles":"Características \nSobre el producto\nIsopropilico sin alcohol\nSeguro para usar en superficies LCD: ayuda a restaurar y mantener el brillo y la claridad\nIdeal para usar con pantallas planas, computadoras portátiles, dispositivos de mano, teclados y más\nEl cepillo suave elimina suavemente el exceso de polvo y residuos sin rayar\nEl limpiador sin aerosol elimina las huellas dactilares y las manchas sin disolventes agresivos",
         "imgFolder":"../../../img/accesorios/mantenimiento/",
         "imgURL":"KIT_PARA_LIMPIEZA_DE_LCD/",
+        "pageURL":"KIT_PARA_LIMPIEZA_DE_LCD.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -153,6 +165,7 @@
         "detalles":"Aire Comprimido\n\nUtilice con el equipo apagado.\nUso externo e interno, soplador envasado a 120 libras de presión para eliminar polvo y suciedad de los equipos eléctricos y electrónicos.\n\nRemovedor\n\nFuerte removedor para eliminar manchas y suciedades adheridas a las partes externas de los equipos eléctricos o eléctronicos.\nRemueve con facilidad gomas, tintas, aceite, grasa, cera, adhesivos y cualquier otro tipo de mancha.\n\nEspuma Limpiadora\n\nUtilícelo con el equipo apagado.\nUso Externo, espuma limpiadora de exteriores que removerá manchas superficiales en las partes externas del equipo.\nUtilice siempre después del uso del Sabo Removed, puede usarse sobre las pantallas.\n\nSilicone \n\nSilicon abrillantador, protector y restaurador ",
         "imgFolder":"../../../img/accesorios/mantenimiento/",
         "imgURL":"COMBO_LIMPIEZA_EXTERNA_PLUS/",
+        "pageURL":"COMBO_LIMPIEZA_EXTERNA_PLUS.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -165,6 +178,7 @@
         "detalles":"Especificaciones\nConductividad térmica: 8.5 W / (mK)\nViscosidad: 870 poise\nDensidad: 2,50 g / cm³\nResistividad de volumen: 3.8 x 10 13 Ω-cm",
         "imgFolder":"../../../img/accesorios/mantenimiento/",
         "imgURL":"PASTA_TERMICA_ARCTIC_MX4/",
+        "pageURL":"PASTA_TERMICA_ARCTIC_MX4.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -177,6 +191,7 @@
         "detalles":"Características\nPara laptops de hasta 15,6 pulgadas\nAmplio compartimiento principal\nBolsillo frontal para accesorios con organizador interior\nCremalleras resistentes con tiradores de metal\nEspecificaciones\nTipo: Mochila para laptop\nDimensiones exteriores: 44x30x12,5cm\nCompartimiento para laptop:: 42x28x5cm\nMaterial: : Poliéster de 600 denier\nCompartimiento principal: Uno\nColor: Negro, Azul, Verde\nPeso: 0,55kg\nGarantía: Un año",
         "imgFolder":"../../../img/accesorios/mochilas/",
         "imgURL":"MOCHILA_XTECH_XTB-210/",
+        "pageURL":"MOCHILA_XTECH_XTB-210.html",
         "img1":"img1.jpg",
         "img2":"img2.jpg",
         "img3":"img3.jpg"
@@ -189,6 +204,7 @@
         "detalles":"Características:\nDiseño ligero y deportivo.\nAbertura diagonal con cremallera para el acceso al compartimento principal de carga\nBolsillo interno acolchado para la mayoría de las tabletas y Ultrabooks de hasta 12 \nBolsillo de malla elástica para llevar una botella de agua o artículos pequeños.\nCorrea acolchada y cómoda, acolchada y cruzada, con bolsillo de malla en el teléfono\nBolsillos con cremallera en la cadera con un duradero lazo en D para llevar de forma ambidiestra\nPuerto de auriculares de goma.",
         "imgFolder":"../../../img/accesorios/mochilas/",
         "imgURL":"MOCHILA_DASHPACK/",
+        "pageURL":"MOCHILA_DASHPACK.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -201,6 +217,7 @@
         "detalles":"Especificaciones\n\nTamaño del cuerpo  12.5 pulgadas x 17 pulgadas x 5 pulgadas\nPeso  2.1 lbs\nMaterial  Poliéster",
         "imgFolder":"../../../img/accesorios/mochilas/",
         "imgURL":"MALETIN_Y_MOCHILA_EN_1_SOLO/",
+        "pageURL":"MALETIN_Y_MOCHILA_EN_1_SOLO.html",
         "img1":"img1.jpeg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -213,6 +230,7 @@
         "detalles":" Peso máximo soportado: 176 libras.\nDimensiones del producto: 47,2 x 23,6 x 29,5 pulgadas.\nPeso del producto: 35 libras.\nMaterial del marco: Acero.\nMaterial del tablero: Tablero de partículas.\nAcabado superior: Fibra de carbono.\nPies ajustables de 2 pulgadas.\nDiseño de marco K.\nCable Gestión.\nPortavasos.\nSoporte del controlador.\nGancho para auriculares.\nResistente al desgaste.\nFácil montaje.",
         "imgFolder":"../../../img/accesorios/muebles/",
         "imgURL":"ESCRITORIO_PARA_COMPUTADORA/",
+        "pageURL":"ESCRITORIO_PARA_COMPUTADORA.html",
         "img1":"img1.jpeg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -225,6 +243,7 @@
         "detalles":"CAPACIDAD DE CARGA MÁX.: 140KG\nCONTROL DE ALTURA: FIABLE MECANISMO NEUMÁTICO DE GAS\nALTURA MÍNIMA DEL ASIENTO: 44,5CM\nALTURA MÁXIMA DEL ASIENTO: 53CM\nTIPO DE REPOSABRAZOS: AJUSTABLE EN 4 DIRECCIONES (VERTICAL/ HORIZONTAL, ADELANTE/ATRÁS, GIRO)\nMATERIAL DEL MARCO: METAL\nTIPO DE BASE: BASE DE NYLON PARA USO INTENSIVO\nMATERIAL DEL FORRO DEL ASIENTO: PVC Y PU DE CALIDAD PRÉMIUM\nMECANISMO DE DESPLAZAMIENTO: RUEDAS GIRATORIAS DE NYLOM\nDENSIDAD DEL RELLENO: ESPUMA MOLDEADA DE 35KG/M3 DE ESPESOR\nTAMAÑO DEL ASIENTO: 52X54CM\nALTURA MÍNIMA DEL REPOSABRAZOS: 31CM\nALTURA MÁXIMA DEL REPOSABRAZOS: 38CM\nTAMAÑO DEL REPOSABRAZOS: 10X26,8CM\nALTURA DEL RESPALDO: 84,6CM\nÁNGULO DE AJUSTE DEL RESPALDO: 90º - 135º\nANCHO DEL RESPALDO A LA ALTURA DEL HOMBRO: 57CM\nCOJÍN LUMBAR AJUSTABLE: INCLUIDO\nALMOHADA ACOLCHADA AJUSTABLE: INCLUIDA",
         "imgFolder":"../../../img/accesorios/muebles/",
         "imgURL":"PRIMUS_PARA_GAMERS_THRONOS_200S/",
+        "pageURL":"PRIMUS_PARA_GAMERS_THRONOS_200S.html",
         "img1":"img1.jpeg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"
@@ -237,6 +256,7 @@
         "detalles":"Capacidad máxima de peso: 265 libras\nDimensiones del asiento: 15 x 20\npulgadas\nAltura del asiento: 18-22 pulgadas Control de altura: mecanismo de elevación de gas de 100 mm\nMaterial del marco: Metal\nTipo de base : Metal negro 350 mm\nTipo de apoyabrazos: Sillón reclinable acolchado\nMaterial del asiento: Tapicería de primera calidad\nMecanismo de rodadura: Nylon 50 mm ruedas giratorias\nAltura del reposabrazos: 12 pulgadas\nDimensiones del reposabrazos: 19 pulgadas (L)\nAltura del respaldo: 31 pulgadas Ancho\ndel hombro del respaldo: 20\npulgadas Ángulo ajustable del respaldo: hasta 160 °\nTamaño total: 26 x 22 x 48-52 pulgadas",
         "imgFolder":"../../../img/accesorios/muebles/",
         "imgURL":"SILLA_ERGO_GX5/",
+        "pageURL":"SILLA_ERGO_GX5.html",
         "img1":"img1.jpeg",
         "img2":"img2.png",
         "img3":"img3.png"
