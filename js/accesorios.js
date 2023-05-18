@@ -8,6 +8,7 @@ function getAccesorios(){
     let precio_anterior = '';
     let item='';
     let imgURL = '';
+    let pageURL = '';
     let html ='<div class="row" id="products">';
 
     let enddiv = '</div>';
@@ -22,6 +23,7 @@ function getAccesorios(){
             precio = e.precio;
             precio_anterior = e.precio_anterior;
             imgURL = e.imgURL;
+            pageURL = e.pageURL;
 
             item = `<div class="col-md-4 col-xs-6">
             <div class="product">
