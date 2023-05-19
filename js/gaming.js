@@ -8,6 +8,7 @@ function getGaming(){
     let precio_anterior = '';
     let item='';
     let imgURL = '';
+    let pageURL = '';
     let html ='<div class="row" id="products">';
 
     let enddiv = '</div>';
@@ -22,6 +23,7 @@ function getGaming(){
             precio = e.precio;
             precio_anterior = e.precio_anterior;
             imgURL = e.imgURL;
+            pageURL = e.pageURL;
 
             item = `<div class="col-md-4 col-xs-6">
             <div class="product">
@@ -32,12 +34,12 @@ function getGaming(){
                 </div>
                 <div class="product-body">
                     <p class="product-category">${subcategoria}</p>
-                    <h3 class="product-name"><a href="#">${nombre_producto}</a></h3>
+                    <h3 class="product-name"><a href="./categorias/gaming/${subcategoria}/${pageURL}">${nombre_producto}</a></h3>
                     <h4 class="product-price">${precio} <del class="product-old-price">${precio_anterior}</del></h4>
                     <div class="product-btns">
                         <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
                         
-                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">ver producto</span></button>
+                        <button onclick="location.href='./categorias/gaming/${subcategoria}/${pageURL}'" class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">ver producto</span></button>
                     </div>
                 </div>
                 <div class="add-to-cart">
