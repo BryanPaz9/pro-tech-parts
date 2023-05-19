@@ -61,7 +61,7 @@
         "detalles":"Especificaciones\nNombre del modelo: USB-BT500.\nEstándar: Bluetooth 5.0+EDR y Bluetooth Smart (Bluetooth de baja energía).\nInterfaz: USB 2.0 tipo A.\nVelocidad de datos: Hasta 3 Mbps (BT-BR/EDR clásico); 2 Mbps (BLE).\nDistancia de uso: Hasta 10 metros (clásico BT-BR/EDR); hasta 40 metros (BLE) en espacios abiertos.\nBanda de frecuencia: 2402~2480 megaciclo.\nEspectro: FHSS (espectro ensanchado por salto de frecuencia).\nModulación: GFSK para 1M/2Mbps, π/4-DQPSK para 2Mbps; 8-DPSK para 3Mbps.\nSoporte de sistema operativo: Windows 10, Linux.\nPeso del producto (g): 1.9.\nAlimentación de entrada: 5 V (vía puerto USB).\nDimensiones: 7.1 x 14.9 x 17.4 mm.\nContenido del paquete\nAdaptador USB Bluetooth 5.0.",
         "imgFolder":"../../../img/accesorios/cables/",
         "imgURL":"ASUS_USB_A_BLUETOOTH_5.0/",
-        "pageURL":"ASUS_USB_A_BLUETOOTH_5.0.html",
+        "pageURL":"ASUS_USB_A_BLUETOOTH_5.html",
         "img1":"img1.jpg",
         "img2":"img2.jpeg",
         "img3":"img3.jpeg"

@@ -39,7 +39,7 @@ function getAccesorios(){
                     <div class="product-btns">
                         <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">Favorito</span></button>
                         
-                        <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">ver producto</span></button>
+                        <button onclick="location.href='./categorias/accesorios/${subcategoria}/${pageURL}'" class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">ver producto</span></button>
                     </div>
                 </div>
                 <div class="add-to-cart">
