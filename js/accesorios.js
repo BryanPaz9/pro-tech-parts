@@ -12,7 +12,7 @@ function getAccesorios(){
     let html ='<div class="row" id="products">';
 
     let enddiv = '</div>';
-    fetch('../js/accesorios.json')
+    fetch('https://raw.githubusercontent.com/BryanPaz9/pro-tech-parts/main/js/accesorios.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -68,7 +68,7 @@ function otros(){
     let gaming = '';
     let pageURL = '';
     let otros_aleatorios = [];
-    fetch('../js/gaming.json')
+    fetch('https://raw.githubusercontent.com/BryanPaz9/pro-tech-parts/main/js/gaming.json')
     .then(response => response.json())
     .then(data=>{
         console.log(data);
