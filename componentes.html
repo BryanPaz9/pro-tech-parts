@@ -32,6 +32,15 @@
 			window.onload = function(){
 				setTimeout(getComponentes,1500);
 				setTimeout(otros,1300);
+				//CARRITO
+				let ls = localStorage.getItem('carrito');
+				let qtycar;
+				if(ls == null){
+					localStorage.setItem('carrito','0');
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}else{
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}
 			}
 
 		</script>
@@ -107,7 +116,7 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
 										<span>Tu Carrito</span>
-										<div class="qty">3</div>
+										<div class="qty" id="qtycar"></div>
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
