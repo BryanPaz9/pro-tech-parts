@@ -143,7 +143,7 @@ function relacionados(){
                     </div>
                     <div class="product-body">
                         <p class="product-category">${subcategoria}</p>
-                        <h3 class="product-name"><a href="#">${nombre_producto}</a></h3>
+                        <h3 class="product-name"><a href="../../componentes/${subcategoria}/${pageURL}">${nombre_producto}</a></h3>
                         <h4 class="product-price">${precio} <del class="product-old-price">${precio_anterior}</del></h4>
                         <div class="product-btns">
                             <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
