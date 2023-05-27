@@ -34,6 +34,19 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<script>
+			window.onload = function(){
+				//CARRITO
+				let ls = localStorage.getItem('carrito');
+				let qtycar;
+				if(ls == null){
+					localStorage.setItem('carrito','0');
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}else{
+					document.getElementById('qtycar').innerHTML = localStorage.getItem('carrito');
+				}
+			}
+		</script>
 
     </head>
 	<body>
@@ -110,35 +123,10 @@
 									</a>
 									<div class="cart-dropdown">
 										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product01.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">Laptop</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>Q980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product02.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>Q980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-										</div>
-										<div class="cart-summary">
-											<small>3 Productos seleccionados</small>
-											<h5>SUBTOTAL: Q2940.00</h5>
 										</div>
 										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="#">Ver carrito</a>
+											<a href="./checkout.html">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
@@ -217,44 +205,28 @@
 						<!-- Billing Details -->
 						<div class="billing-details">
 							<div class="section-title">
-								<h3 class="title">Billing address</h3>
+								<h3 class="title">Datos de facturación</h3>
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="first-name" placeholder="First Name">
+								<input class="input" type="text" name="first-name" placeholder="Nombres">
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="last-name" placeholder="Last Name">
+								<input class="input" type="text" name="last-name" placeholder="Apellidos">
 							</div>
 							<div class="form-group">
 								<input class="input" type="email" name="email" placeholder="Email">
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="address" placeholder="Address">
+								<input class="input" type="text" name="address" placeholder="Dirección de facturación">
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="city" placeholder="City">
+								<input class="input" type="text" name="city" placeholder="Municipio">
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="country" placeholder="Country">
+								<input class="input" type="text" name="country" placeholder="Departmento">
 							</div>
 							<div class="form-group">
-								<input class="input" type="text" name="zip-code" placeholder="ZIP Code">
-							</div>
-							<div class="form-group">
-								<input class="input" type="tel" name="tel" placeholder="Telephone">
-							</div>
-							<div class="form-group">
-								<div class="input-checkbox">
-									<input type="checkbox" id="create-account">
-									<label for="create-account">
-										<span></span>
-										Create Account?
-									</label>
-									<div class="caption">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-										<input class="input" type="password" name="password" placeholder="Enter Your Password">
-									</div>
-								</div>
+								<input class="input" type="tel" name="tel" placeholder="Teléfono">
 							</div>
 						</div>
 						<!-- /Billing Details -->
@@ -262,38 +234,35 @@
 						<!-- Shiping Details -->
 						<div class="shiping-details">
 							<div class="section-title">
-								<h3 class="title">Shiping address</h3>
+								<h3 class="title">Datos de envío</h3>
 							</div>
 							<div class="input-checkbox">
 								<input type="checkbox" id="shiping-address">
 								<label for="shiping-address">
 									<span></span>
-									Ship to a diffrent address?
+									La dirección de envío es diferente?
 								</label>
 								<div class="caption">
 									<div class="form-group">
-										<input class="input" type="text" name="first-name" placeholder="First Name">
+										<input class="input" type="text" name="first-name" placeholder="Nombres">
 									</div>
 									<div class="form-group">
-										<input class="input" type="text" name="last-name" placeholder="Last Name">
+										<input class="input" type="text" name="last-name" placeholder="Apellidos">
 									</div>
 									<div class="form-group">
 										<input class="input" type="email" name="email" placeholder="Email">
 									</div>
 									<div class="form-group">
-										<input class="input" type="text" name="address" placeholder="Address">
+										<input class="input" type="text" name="address" placeholder="Dirección de entrega">
 									</div>
 									<div class="form-group">
-										<input class="input" type="text" name="city" placeholder="City">
+										<input class="input" type="text" name="city" placeholder="Municipio">
 									</div>
 									<div class="form-group">
-										<input class="input" type="text" name="country" placeholder="Country">
+										<input class="input" type="text" name="country" placeholder="Departmento">
 									</div>
 									<div class="form-group">
-										<input class="input" type="text" name="zip-code" placeholder="ZIP Code">
-									</div>
-									<div class="form-group">
-										<input class="input" type="tel" name="tel" placeholder="Telephone">
+										<input class="input" type="tel" name="tel" placeholder="Teléfono">
 									</div>
 								</div>
 							</div>
@@ -302,7 +271,7 @@
 
 						<!-- Order notes -->
 						<div class="order-notes">
-							<textarea class="input" placeholder="Order Notes"></textarea>
+							<textarea class="input" placeholder="Notas adicionales"></textarea>
 						</div>
 						<!-- /Order notes -->
 					</div>
@@ -310,30 +279,30 @@
 					<!-- Order Details -->
 					<div class="col-md-5 order-details">
 						<div class="section-title text-center">
-							<h3 class="title">Your Order</h3>
+							<h3 class="title">Tu pedido</h3>
 						</div>
 						<div class="order-summary">
 							<div class="order-col">
-								<div><strong>PRODUCT</strong></div>
-								<div><strong>TOTAL</strong></div>
+								<div><strong>PRODUCTO</strong></div>
+								<div><strong>SUBTOTAL</strong></div>
 							</div>
 							<div class="order-products">
 								<div class="order-col">
-									<div>1x Product Name Goes Here</div>
-									<div>$980.00</div>
+									<div>Producto 1</div>
+									<div>Q 1000.00</div>
 								</div>
 								<div class="order-col">
-									<div>2x Product Name Goes Here</div>
-									<div>$980.00</div>
+									<div>Producto 2</div>
+									<div>Q 3000.00</div>
 								</div>
 							</div>
 							<div class="order-col">
-								<div>Shiping</div>
-								<div><strong>FREE</strong></div>
+								<div>Envío</div>
+								<div><strong>GRATIS</strong></div>
 							</div>
 							<div class="order-col">
 								<div><strong>TOTAL</strong></div>
-								<div><strong class="order-total">$2940.00</strong></div>
+								<div><strong class="order-total">Q 4000.00</strong></div>
 							</div>
 						</div>
 						<div class="payment-method">
@@ -341,41 +310,34 @@
 								<input type="radio" name="payment" id="payment-1">
 								<label for="payment-1">
 									<span></span>
-									Direct Bank Transfer
+									Transferencia bancaria
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Vamos a validar el comprobante de pago para poder realizar la gestión del Envío de tus productos.</p>
 								</div>
 							</div>
 							<div class="input-radio">
 								<input type="radio" name="payment" id="payment-2">
 								<label for="payment-2">
 									<span></span>
-									Cheque Payment
+									Tarjeta de crédito
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>El pago se hace por medio de link.</p>
 								</div>
 							</div>
 							<div class="input-radio">
 								<input type="radio" name="payment" id="payment-3">
 								<label for="payment-3">
 									<span></span>
-									Paypal System
+									Paypal
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Compra fácil con Paypal.</p>
 								</div>
 							</div>
 						</div>
-						<div class="input-checkbox">
-							<input type="checkbox" id="terms">
-							<label for="terms">
-								<span></span>
-								I've read and accept the <a href="#">terms & conditions</a>
-							</label>
-						</div>
-						<a href="#" class="primary-btn order-submit">Place order</a>
+						<a href="#" class="primary-btn order-submit">Ordenar</a>
 					</div>
 					<!-- /Order Details -->
 				</div>
